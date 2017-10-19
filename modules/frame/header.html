@@ -1,0 +1,88 @@
+<div id=desk__ID>
+    <span id=username__ID></span>
+    <header id=header__ID>
+        <div id=d1228__ID>
+            <div id=logo__ID><div id=logo_image__ID></div></div>
+            <nav id=nav__ID>
+                <ul>
+                    <li data-name=home id=home_page>Home</li>
+                    <li data-name=main>CRC_Powersleep_Laboratory</li>
+                    <li id=signin__ID data-b='1'>Sign In</li>
+                    <li id=signout__ID data-b='2'>Sign Out</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
+<style>
+    #header__ID{
+        height:100px;
+        background:rgba(255,255,255,1);
+    }
+    #d1228__ID{
+        margin-left:auto;
+        margin-right:auto;
+        max-width:1228px;
+        position: relative;
+    }
+    #logo__ID{
+        left: 23px;
+        top: 3px;
+        position: absolute;
+        margin: 0;
+        display: inline-block;
+    }
+    #logo_image__ID{
+        width:380px;
+        height:94px;
+        background: url('__BASE__/woolcock-imr/woolcock_images/logo.jpg') no-repeat top center;
+        background-size: contain;
+        float:left;
+    }
+    #logo_label__ID{
+        color:#fff;
+        padding-left:10px;
+        float:left;
+        padding-top:18px;
+    }
+    #logo_label__ID h2{
+        font: 200% Arial;
+    }
+    #logo_label__ID h3{
+        font: 88% Arial;
+    }
+    #username__ID{
+        position:absolute;
+        top:3px;
+        right:3px;
+        font-size:11px;
+        color:#333;
+        z-index: 1;
+    }
+    #nav__ID{
+        padding: 40px 80px 0 0;
+        margin:0;
+        float: right;
+        opacity: 1;
+        position: relative;
+    }
+    #nav__ID>ul{
+        list-style: none;
+        overflow: hidden;
+        float: left;
+    }
+    #nav__ID>ul:after {
+        content: ""; clear: both;
+        display: block;
+    }
+    #nav__ID>ul>li{
+        color:#000;
+        float: left;
+        margin-left: 50px;
+        white-space: nowrap;
+        cursor:pointer;
+    }
+    #nav__ID>ul>li:hover{
+        color:#f00;
+    }
+</style>

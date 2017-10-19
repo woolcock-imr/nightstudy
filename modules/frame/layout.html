@@ -1,0 +1,32 @@
+<section>
+    VmInclude:__BASE__/woolcock-imr/CRC_Powersleep_Laboratory/modules/frame/slider.html
+    VmInclude:__BASE__/woolcock-imr/CRC_Powersleep_Laboratory/modules/frame/header.html
+    VmInclude:__BASE__/woolcock-imr/CRC_Powersleep_Laboratory/modules/frame/content.html
+    VmInclude:__BASE__/woolcock-imr/CRC_Powersleep_Laboratory/modules/frame/footer.html
+</section>
+<script>
+    function F__ID(){
+        //------------------------------------
+        $vm.module_list.home      ={url:$vm.hosting_path+'/vmiis/module-library/home/home.html'};
+        $vm.module_list.main      ={url:$vm.hosting_path+'/'+$vm.repository+'/modules/control_panels/main.html'};
+        //------------------------------------
+        var on_load=function(){
+            _header_opacity_Home="0.8"
+            _header_opacity="0.8"
+            layout_resize();
+            login_changed();
+        };
+        //------------------------------------
+        VmInclude:__BASE__/vmiis/Common-Code/layout/main_layout_process.js
+        //------------------------------------
+    }
+</script>
+<style>
+    html,body{
+      	margin:0;
+      	padding:0;
+      	height:100%;
+      	width:100%;
+      	font: 14px Helvetica, Arial, sans-serif;
+    }
+</style>

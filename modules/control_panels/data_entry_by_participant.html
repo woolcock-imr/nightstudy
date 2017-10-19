@@ -1,0 +1,28 @@
+<!--only need to change the include line 14-->
+VmInclude:__BASE__/vmiis/common-code/toolbar/back.html
+<section>
+    <div id=qe_ID style='padding:50px'>
+        <ui id=items__ID>
+        </ui>
+    </div>
+</section>
+<script>
+    function F__ID(){
+        //---------------------------------
+        VmInclude:__BASE__/vmiis/common-code/toolbar/back.js
+        VmInclude:__BASE__/vmiis/Common-Code/style/ease-in-out.js
+        VmInclude:__CURRENT_PATH__/main.js
+        VmInclude:__BASE__/vmiis/Common-Code/clinical_trials/data_entry_by_participant.js
+        //-------------------------------------
+    }
+</script>
+<style>
+    #D__ID,#pvdiv__ID{
+      font-size:10pt;
+      font-family: Verdana,Helvetica,Arial,sans-serif;
+      background: url("__BASE__/vmiis/common-code/image/texture.png");
+    }
+    #D__ID{
+      /*background-color:#fff;*/
+    }
+</style>

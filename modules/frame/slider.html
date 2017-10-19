@@ -1,0 +1,109 @@
+<div>
+    <div id="slider__ID">
+      <ul>
+          <li style="background: url('__BASE__/woolcock-imr/woolcock_images/bk2.jpg') no-repeat bottom center; background-size: cover;"></li>
+          <li style="background: url('__BASE__/woolcock-imr/woolcock_images/bk1.jpg') no-repeat bottom center; background-size: cover;"></li>
+          <li style="background: url('__BASE__/woolcock-imr/woolcock_images/bk3.jpg') no-repeat bottom center; background-size: cover;"></li>
+          <li style="background: url('__BASE__/woolcock-imr/woolcock_images/bk4.jpg') no-repeat bottom center; background-size: cover;"></li>
+      </ul>
+    </div>
+    <a id="control_next__ID"></a>
+    <a id="control_prev__ID"></a>
+</div>
+<script>
+    if( $('#slider__ID').length!==0 ){
+        var slideWidth=window.innerWidth;
+        var slideHeight=window.innerHeight;
+        var slideCount = $('#slider__ID ul li').length;
+        var sliderUlWidth = slideCount * slideWidth;
+        $('#slider__ID').css({ width: slideWidth, height: slideHeight });
+        $('#slider__ID ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+        $('#slider__ID ul li:last-child').prependTo('#slider__ID ul');
+        var moveRight=function() {
+            $('#slider__ID ul').animate({
+                left: - slideWidth
+            }, 700, function () {
+                $('#slider__ID ul li:first-child').appendTo('#slider__ID ul');
+                $('#slider__ID ul').css('left', '');
+            });
+        };
+        var moveLeft=function() {
+            $('#slider__ID ul').animate({
+                left: + slideWidth
+            }, 700, function () {
+                $('#slider__ID ul li:last-child').prependTo('#slider__ID ul');
+                $('#slider__ID ul').css('left', '');
+            });
+        };
+        $('#control_prev__ID').click(function () { moveLeft(); });
+        $('#control_next__ID').click(function () { moveRight();});
+    }
+
+    setInterval(function () {
+        moveRight();
+    }, 6000);
+
+</script>
+<style>
+    #slider__ID {
+        position:absolute;
+        z-index:-2;
+        width:100%;
+        height:100%;
+        overflow-x: hidden;
+    }
+    #slider__ID ul {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width:200%;
+        list-style: none;
+        float:left;
+        display:flex;
+        overflow-x: hidden;
+    }
+    #slider__ID ul li {
+        position: relative;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width:100%;
+        height: 100%;
+        background: #ccc;
+        text-align: center;
+        line-height: 300px;
+        overflow-x: hidden;
+        background-size: cover;
+    }
+    #control_prev__ID, #control_next__ID {
+        position: absolute;
+        top: 45%;
+        z-index: 999;
+        display: block;
+        padding: 20px 20px;
+        width: auto;
+        height: auto;
+        background: #2a2a2a;
+        color: #aaa;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 190%;
+        opacity: 0.2;
+        cursor: pointer;
+    }
+    #control_prev__ID:hover, #control_next__ID:hover {
+        opacity: 1;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+    }
+    #control_prev__ID {
+        border-radius: 0 2px 2px 0;
+    }
+    #control_next__ID {
+        right: 0;
+        border-radius: 2px 0 0 2px;
+    }
+</style>
