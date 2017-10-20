@@ -1,0 +1,20 @@
+{
+	"library_path":"https://cbs.wappsystem.com/dev/github",
+	"parts_path":"https://vmiis.github.io/parts",
+	"image_path":"https://image.datalinkedin.com",
+	"api_path_development":"https://cbs.wappsystem.com/dev/",
+	"api_path_production":"https://rt.woolcock.org.au/",
+	"default_production":"Yes",
+	"additional_groups":["task.json"],
+	"parameters":{
+	},
+	"modules":
+	{
+		"home":						{"url":"/modules/static/home.html"},
+		"main_panel":				{"url":"/modules/dynamic/panel/main.html"},
+		"participant":				{"url":"/modules/dynamic/participant/participant.html","table_id":"20010469"},
+		"participant_login_setup":	{"url":"/modules/dynamic/participant/participant_login_setup.html","table_id":"20010471"},
+		"clinical_trials_notes":	{"url":"/modules/dynamic/participant/task-notes.html","table_id":"20010470"},
+		"site_filter":				{"url":"/modules/dynamic/participant/site-filter.html","table_id":"20010473"}
+	}
+}
