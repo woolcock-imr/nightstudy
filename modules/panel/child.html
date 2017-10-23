@@ -1,0 +1,73 @@
+<section id=page__ID>
+	<div id=info__ID></div>
+	VmInclude:__CURRENT_PATH__/task_links.html
+</section>
+
+<script>
+	function F__ID(){
+		//--------------------------------------------------------
+		var record;
+		$('#D__ID').on('load',function(){
+			record=$vm.vm['__ID'].op.record;
+			var info="Study ID:"+record.Study_ID;
+			$('#info__ID').text(info);
+		})
+		//--------------------------------------------------------
+		var group_name=$vm.app_config.participant_group_name;
+		if(group_name==undefined){
+			alert("$vm.app_config.participant_group_name if undefined");
+		}
+		//-------------------------------------
+		$('#page__ID li').on('click',function(){
+			var m=$(this).attr('module');
+			if(m!=undefined){
+				if($vm.module_list[group_name+"_"+m]==undefined){
+					alert(group_name+"_"+m +" is not in the module list.");
+					return;
+				}
+				$vm.load_module_by_name(group_name+"_"+m,$vm.root_layout_content_slot,{participant_uid:record.UID,participant_name:record.Study_ID})
+			}
+		})
+		//--------------------------------------------------------
+	}
+</script>
+
+<style>
+	VmInclude:__PARTS__/navigation/navigation.css
+	#D__ID{
+		background-color:#fff;
+		height:100%;
+		overflow: auto;
+		animation: vm_module_fadein 1.0s;
+		padding:20px 0 0 20px;
+	}
+	#D__ID li {
+		color:#666;
+	}
+	li::before{
+		font-size: 20px!Important;
+	}
+	#D__ID li:hover {
+		color:#fff;
+	}
+	#D__ID a {
+		text-decoration: none;
+	}
+	#D__ID a:link {
+		color:#666;
+	}
+	#D__ID a:visited {
+		color:#666;
+	}
+	#D__ID a:hover {
+		color:#fff;
+	}
+	#D__ID a:active {
+		color:#666;
+	}
+	@media screen and (max-width:768px){
+		#D__ID{
+			padding:10px 0 0 10px;
+		}
+	}
+</style>

@@ -1,20 +1,22 @@
 <div header id=header__ID>
     <nav id=nav__ID class="navbar navbar-expand-md navbar-dark">
-        <a class="navbar-brand d-none d-lg-inline-block" onclick="$vm.nav_load_module('home');">
-        	<div class=large_logo__ID>
-	        	<div class="logo_image__ID"></div>
-	        </div>
-        </a>
-        <a class="navbar-brand d-lg-none" onclick="$vm.nav_load_module('home');">
-            <div class=small_logo__ID>Woolcock</div>
-        </a>
+		<div id=brand__ID>
+	        <a class="navbar-brand d-none d-lg-inline-block" onclick="$vm.nav_load_module('main_home');">
+	        	<div class=large_logo__ID>
+		        	<div class="logo_image__ID"></div>
+		        </div>
+	        </a>
+	        <a class="navbar-brand d-lg-none" onclick="$vm.nav_load_module('main_home');">
+	            <div class=small_logo__ID>Woolcock</div>
+	        </a>
+		</div>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars__ID" aria-controls="navbars__ID" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div id="navbars__ID" class="navbar-collapse collapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('home');"><i class="fa fa-home"></i> Home</a></li>
-                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('main_panel');"><i class="fa fa-th"></i> Night Study</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('main_home');"><i class="fa fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="$vm.nav_load_module('main_main_panel');"><i class="fa fa-th"></i> Night Study</a></li>
                 <li><a class="nav-link" onclick="$vm.nav_click_process('vm_signinout');" name=signinout><i class="fa fa-user"></i> Sign In/Out</a></li>
             </ul>
         </div>

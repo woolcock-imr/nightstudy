@@ -6,8 +6,13 @@
         //-------------------------------------
         VmInclude:__COMPONENT__/grid/grid.v3.js
         //-------------------------------------
-		var prefix=_mlist[$vm.vm['__ID'].name].prefix; if(prefix==undefined) prefix="";
-        var participant_pid=_mlist[prefix+'participant'].table_id;
+		//-------------------------------------
+		var group_name=$vm.app_config.participant_group_name;
+		if(group_name==undefined){
+			alert("$vm.app_config.participant_group_name if undefined");
+		}
+		//-------------------------------------
+        var participant_pid=_mlist[group_name+"_"+'participant'].table_id;
 		var sql_participant="S2";
         //-------------------------------------
         _fields="_Form,Visit/Task|Visit_Task,Participant,Short_Title,Contents,Color";

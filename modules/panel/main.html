@@ -1,4 +1,4 @@
-<section id=page__ID>
+<section id=panel__ID>
 	<div class='nav__ID'>
 		<span>Participants</span>
 		<ul>
@@ -11,29 +11,26 @@
 		</ul>
 		<br>
 	</div>
+	VmInclude:__CURRENT_PATH__/task_links.html
 </section>
 
 <script>
       function F__ID(){
-		  $('#page__ID li').on('click',function(){
+		  //--------------------------------------------------------
+		  var group="main_";
+		  $('#panel__ID li').on('click',function(){
 			  var m=$(this).attr('module');
               if(m!=undefined){
-				  if($vm.module_list[m]==undefined){
-					  alert("The module '"+m+"' doesn't exist in the module list (not in the config files).")
+				  if($vm.module_list[group+m]==undefined){
+					  alert(group+m +" is not in the module list. check the panel 'main' and main.json");
+					  return;
 				  }
-				  else{
-					  if($vm.module_list[m].url==undefined){
-						  alert("The module "+m+" exists in the module list but no url was found.")
-					  }
-					  else{
-						  $vm.module_list[m].alert='1';
-						  $vm.nav_load_module(m);
-					  }
-				  }
-			  }
+			      $vm.nav_load_module(group+m);
+              }
 		  })
-		  $('#D__ID').on('show',function(){
-		  })
+		  //--------------------------------------------------------
+		  //Vm Include:__CURRENT_PATH__/check-link.js
+		  //--------------------------------------------------------
       }
 </script>
 

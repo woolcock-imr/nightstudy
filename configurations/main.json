@@ -1,0 +1,13 @@
+{
+	"modules":
+	{
+		"home":						{"url":"/modules/home.html"},
+		"main_panel":				{"url":"/modules/panel/main.html"},
+		"child_panel":				{"url":"/modules/panel/child.html"},
+		"participant":				{"url":"/modules/dynamic/participant/participant.html","table_id":"20010469"},
+		"participant_login_setup":	{"url":"/modules/dynamic/participant/participant_login_setup.html","table_id":"20010471"},
+		"clinical_trials_notes":	{"url":"/modules/dynamic/participant/task-notes.html","table_id":"20010470"},
+		"site_filter":				{"url":"/modules/dynamic/participant/site-filter.html","table_id":"20010473"}
+	},
+	"participant_group_name":"main"
+}

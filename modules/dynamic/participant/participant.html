@@ -9,7 +9,12 @@
         //-------------------------------------
         VmInclude:__COMPONENT__/grid/grid.v3.js
         //-------------------------------------
-		login_setup_tid=_mlist['participant_login_setup'].table_id;
+		var group_name=$vm.app_config.participant_group_name;
+		if(group_name==undefined){
+			alert("$vm.app_config.participant_group_name if undefined");
+		}
+		//-------------------------------------
+		login_setup_tid=_mlist[group_name+"_"+'participant_login_setup'].table_id;
 		//-------------------------------------
         $('#D__ID').on('load',function(){  _set_req(); _request_data();  })
         $('#D__ID').on('show',function(){  _set_req(); _request_data();  })
@@ -31,9 +36,10 @@
                     if(_records[I].UID===undefined) return;
                     td.html("<u style='cursor:pointer'>Data Entry</u>");
                     td.find('u').on('click',function(){
-                        $vm.load_module_by_name(_module.var.data_entry_by_staff,$vm.root_layout_content_slot,{
-                            rid:_records[I].ID,participant_uid:_records[I].UID,
-                            participant_name:_records[I].Study_ID,
+                        $vm.load_module_by_name(group_name+"_"+'child_panel',$vm.root_layout_content_slot,{
+							record:records[I]
+                            //rid:_records[I].ID,participant_uid:_records[I].UID,
+                            //participant_name:_records[I].Study_ID,
                         });
                     });
                     break;
@@ -42,7 +48,7 @@
                     if(_records[I].UID===undefined) return;
                     td.html("<u style='cursor:pointer'>Setup</u>");
                     td.find('u').on('click',function(){
-                        $vm.load_module_by_name('participant_login_setup',$vm.root_layout_content_slot,{record:_records[I]});
+                        $vm.load_module_by_name(group_name+"_"+'participant_login_setup',$vm.root_layout_content_slot,{record:_records[I]});
                     });
                     break;
                 case '_Quest':

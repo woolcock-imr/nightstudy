@@ -1,4 +1,5 @@
 {
+	"group_name":"main",
 	"modules":
 	{
 		"Adverse_Event_Adverse":    {"table_id":"20010475","url":"modules/dynamic/task/Adverse_Event.html","notes":" Adverse Event_Adverse"},

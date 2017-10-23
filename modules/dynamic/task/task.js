@@ -1,9 +1,12 @@
 //-------------------------------------
-var prefix=_mlist[$vm.vm['__ID'].name].prefix; if(prefix==undefined) prefix="";
+var group_name=$vm.app_config.participant_group_name;
+if(group_name==undefined){
+	alert("$vm.app_config.participant_group_name if undefined");
+}
 //-------------------------------------
-var participant_pid=_mlist[prefix+'participant'].table_id;
-var notes_pid=_mlist[prefix+'clinical_trials_notes'].table_id;
-var site_filter_pid=_mlist[prefix+'participant'].table_id;
+var participant_pid=_mlist[group_name+"_"+'participant'].table_id;
+var notes_pid=_mlist[group_name+"_"+'clinical_trials_notes'].table_id;
+var site_filter_pid=_mlist[group_name+"_"+'site_filter'].table_id;
 var sql_participant="S2";
 //-------------------------------------
 _record_type="s2";
@@ -101,7 +104,7 @@ var _default_cell_render=function(records,I,field,td,set_value,source){
             td.html("<u style='cursor:pointer;color:"+color+"'>"+value+"</u>");
             td.find('u').on('click',function(){
                 var visit_task=$vm.module_list[$vm.vm['__ID'].name].notes;
-                $vm.load_module_by_name('clinical_trials_notes',$vm.root_layout_content_slot,{
+                $vm.load_module_by_name(group_name+"_"+'clinical_trials_notes',$vm.root_layout_content_slot,{
                     task_record_uid:_records[I].UID,
                     task_record_pid:_db_pid,
                     //task_name:task_name,
