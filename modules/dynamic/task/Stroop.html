@@ -7,9 +7,10 @@
         VmInclude:__COMPONENT__/grid/grid.v3.js
         VmInclude:__CURRENT_PATH__/task.js
 
+        //----------------------------------
         //-------------------------------------
-        _task_fields="KSS";
-        _fields="_Form|form_module,Status|S3,Notes|NT,Participant,"+_task_fields;
+        _task_fields="SPC,SPRT,STTT,SCORR,STotal,ReactionTimes,ShownText,ShownColour,ResponseColour,Result";
+        _fields="_Form,Status|S3,Notes|NT,Participant,"+_task_fields;
         _fields+=",Submit Date|DateTime,Submitted by|Author,_Delete,_Hidden|Participant_uid";
         _grid_to_form_parameters={task_fields:_task_fields};
         //-------------------------------------
