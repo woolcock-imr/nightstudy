@@ -1,8 +1,18 @@
 //-------------------------------------
+var group_name=$vm.app_config.participant_group_name;
+if(group_name==undefined){
+	alert("$vm.app_config.participant_group_name if undefined");
+}
+//-------------------------------------
+var participant_pid=_mlist[group_name+"_"+'participant'].table_id;
+var notes_pid=_mlist[group_name+"_"+'clinical_trials_notes'].table_id;
+var site_filter_pid=_mlist[group_name+"_"+'site_filter'].table_id;
+var sql_participant="S2";
+
 //input needed in module input variables
-var m_var=$vm.module_list[$vm.vm['__ID'].name].var;
-var participant_pid=m_var.participant_tid;
-var sql_participant=m_var.sql_participant;
+//var m_var=$vm.module_list[$vm.vm['__ID'].name].var;
+//var participant_pid=m_var.participant_tid;
+//var sql_participant=m_var.sql_participant;
 //-------------------------------------
 $('#Participant__ID').autocomplete({
     minLength:0,
