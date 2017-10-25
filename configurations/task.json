@@ -9,6 +9,8 @@
 
 		"Screening_Visit_Date":		{"table_id":"20010478","url":"modules/dynamic/task/Visit_date.html","notes":"Screening Visit Date"},
 		"Screening_Anthro":    		{"table_id":"20010479","url":"modules/dynamic/task/Anthro.html","notes":"Screening Anthropometry"},
+		"v1s1_2_back":        {"table_id":"20010481","url":"modules/dynamic/task/N_Back.html","notes":"Screening 2-back Practice","redundant_form_module":"v1s1_2_back_QUEST","task":"2-back Practice"},
+		"v1s1_2_back_QUEST":  {"table_id":"20010481","url":"modules/dynamic/task/2Back_Practice.form.html"},
 
 		"At_Home_Testing_Sleep_diary_1":     {"table_id":"20010483","url":"modules/dynamic/task/At_Home_Sleep_Diary.html","notes":"Day 1"},
 		"At_Home_Testing_Sleep_diary_2":     {"table_id":"20010485","url":"modules/dynamic/task/At_Home_Sleep_Diary.html","notes":"Day 2"},
@@ -122,19 +124,13 @@
 
 
 		"v1s1_Anthro":      {"table_id":"20010487","url":"modules/dynamic/task/Anthro.html","notes":"Visit 1 Anthropometry"},
-		"v1s1_T1_KSS1":     {"table_id":"20010488","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v1s1_TI_KSS1_QUEST","task":"KSS before PVT"},
-		"v1s1_TI_KSS1_QUEST":   {"table_id":"20010488","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
+		"v1s1_T1_KSS1":     {"table_id":"20010488","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v1s1_T1_KSS1_QUEST","task":"KSS before PVT"},
+		"v1s1_T1_KSS1_QUEST":   {"table_id":"20010488","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v1s1_T1_PVT":     {"table_id":"20010489","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v1s1_T1_KSS2":         {"table_id":"20010490","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v1s1_T1_KSS2_QUEST", "task": "KSS after PVT" },
 		"v1s1_T1_KSS2_QUEST":   {"table_id":"20010490","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
-		"v1s1_T4_TOL":        {"table_id":"20010494","url":"modules/dynamic/task/Tower_of_London.html","notes":"v1s1_T4_TOL","redundant_form_module":"v1s1_T4_TOL_QUEST","task":"v1s1_T1_TOL"},
+		"v1s1_T4_TOL":        {"table_id":"20010494","url":"modules/dynamic/task/Tower_of_London.html","notes":"v1s1_T4_TOL","redundant_form_module":"v1s1_T4_TOL_QUEST","task":"Tower of London"},
 		"v1s1_T4_TOL_QUEST":  {"table_id":"20010494","url":"modules/dynamic/task/Tower_of_London.form.html"},
-		"v1s1_1_back":        {"table_id":"20010480","url":"modules/dynamic/task/N_Back.html","notes":"Screening 1-back Practice","redundant_form_module":"v1s1_1_back_QUEST","task":"1-back Practice"},
-		"v1s1_1_back_QUEST":  {"table_id":"20010480","url":"modules/dynamic/task/1Back_Practice.form.html"},
-		"v1s1_2_back":        {"table_id":"20010481","url":"modules/dynamic/task/N_Back.html","notes":"Screening 2-back Practice","redundant_form_module":"v1s1_2_back_QUEST","task":"2-back Practice"},
-		"v1s1_2_back_QUEST":  {"table_id":"20010481","url":"modules/dynamic/task/2Back_Practice.form.html"},
-		"v1s1_3_back":        {"table_id":"20010482","url":"modules/dynamic/task/N_Back.html","notes":"Screening 2-back Practice","redundant_form_module":"v1s1_3_back_QUEST","task":"3-back Practice"},
-		"v1s1_3_back_QUEST":  {"table_id":"20010482","url":"modules/dynamic/task/3Back_Practice.form.html"},
 		"v1s1_T2_KSS1":     {"table_id":"20010495","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v1s1_T2_KSS1_QUEST","task":"KSS before PVT"},
 		"v1s1_T2_KSS1_QUEST":   {"table_id":"20010495","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v1s1_T2_PVT":     {"table_id":"20010496","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
@@ -142,7 +138,7 @@
 		"v1s1_T2_KSS2_QUEST":   {"table_id":"20010497","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v1s1_T2_1_back":        {"table_id":"20010491","url":"modules/dynamic/task/Nback.html","notes":"v1s1_T2_1_back","redundant_form_module":"v1s1_T2_1_back_QUEST","task":"v1s1_T2_1-back "},
 		"v1s1_T2_1_back_QUEST":  {"table_id":"20010491","url":"modules/dynamic/task/1back.form.html"},
-		"v1s1_T5_2_back":        {"table_id":"20010492","url":"modules/dynamic/task/Nback.html","notes":"v1s1_T5_2_back","redundant_form_module":"v1s1_T5_2_back_QUEST","task":"v1s1_T2_2-back "},
+		"v1s1_T5_2_back":        {"table_id":"20010492","url":"modules/dynamic/task/Nback.html","notes":"v1s1_T5_2_back","redundant_form_module":"v1s1_T5_2_back_QUEST","task":"2-Back"},
 		"v1s1_T5_2_back_QUEST":  {"table_id":"20010492","url":"modules/dynamic/task/2back.form.html"},
 		"v1s1_T2_3_back":        {"table_id":"20010493","url":"modules/dynamic/task/Nback.html","notes":"v1s1_T2_3_back","redundant_form_module":"v1s1_T2_3_back_QUEST","task":"v1s1_T2_3-back "},
 		"v1s1_T2_3_back_QUEST":  {"table_id":"20010493","url":"modules/dynamic/task/3back.form.html"},
@@ -172,8 +168,8 @@
 		"v1s1_T6_KSS2_QUEST":   {"table_id":"20010509","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 
 		"v1s2_Anthro":      {"table_id":"20010517","url":"modules/dynamic/task/Anthro.html","notes":"Visit 2 Anthropometry"},
-		"v1s2_T1_KSS1":     {"table_id":"20010518","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v1s2_TI_KSS1_QUEST","task":"KSS before PVT"},
-		"v1s2_TI_KSS1_QUEST":   {"table_id":"20010518","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
+		"v1s2_T1_KSS1":     {"table_id":"20010518","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v1s2_T1_KSS1_QUEST","task":"KSS before PVT"},
+		"v1s2_T1_KSS1_QUEST":   {"table_id":"20010518","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v1s2_T1_PVT":     {"table_id":"20010519","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v1s2_T1_KSS2":         {"table_id":"20010520","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v1s2_T1_KSS2_QUEST", "task": "KSS after PVT" },
 		"v1s2_T1_KSS2_QUEST":   {"table_id":"20010520","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
@@ -196,11 +192,11 @@
 		"v1s2_T4_PVT":     {"table_id":"20010532","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v1s2_T4_KSS2":         {"table_id":"20010533","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v1s2_T4_KSS2_QUEST", "task": "KSS after PVT" },
 		"v1s2_T4_KSS2_QUEST":   {"table_id":"20010533","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
-		"v1s2_T4_TOL":        {"table_id":"20010546","url":"modules/dynamic/task/Tower_of_London.html","notes":"v1s2_T4_TOL","redundant_form_module":"v1s2_T4_TOL_QUEST","task":"v1s2_T4_TOL"},
+		"v1s2_T4_TOL":        {"table_id":"20010546","url":"modules/dynamic/task/Tower_of_London.html","notes":"v1s2_T4_TOL","redundant_form_module":"v1s2_T4_TOL_QUEST","task":"Tower of London"},
 		"v1s2_T4_TOL_QUEST":  {"table_id":"20010546","url":"modules/dynamic/task/Tower_of_London.form.html"},
 		"v1s2_T4_1_back":        {"table_id":"20010543","url":"modules/dynamic/task/Nback.html","notes":"v1s2_T4_1_back","redundant_form_module":"v1s2_T4_1_back_QUEST","task":"v1s2_T4_1_back"},
 		"v1s2_T4_1_back_QUEST":  {"table_id":"20010543","url":"modules/dynamic/task/1back.form.html"},
-		"v1s2_T5_2_back":        {"table_id":"20010544","url":"modules/dynamic/task/Nback.html","notes":"v1s2_T5_2_back","redundant_form_module":"v1s2_T5_2_back_QUEST","task":"v1s2_T5_2_back"},
+		"v1s2_T5_2_back":        {"table_id":"20010544","url":"modules/dynamic/task/Nback.html","notes":"v1s2_T5_2_back","redundant_form_module":"v1s2_T5_2_back_QUEST","task":"2-Back"},
 		"v1s2_T5_2_back_QUEST":  {"table_id":"20010544","url":"modules/dynamic/task/2back.form.html"},
 		"v1s2_T4_3_back":        {"table_id":"20010545","url":"modules/dynamic/task/Nback.html","notes":"v1s2_T4_3_back","redundant_form_module":"v1s2_T4_3_back_QUEST","task":"v1s2_T4_3_back"},
 		"v1s2_T4_3_back_QUEST":  {"table_id":"20010545","url":"modules/dynamic/task/3back.form.html"},
@@ -221,8 +217,8 @@
 		"v1s2_T7_KSS2_QUEST":   {"table_id":"20010542","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 
 		"v1s3_Anthro":      {"table_id":"20010547","url":"modules/dynamic/task/Anthro.html","notes":"Visit 3 Anthropometry"},
-		"v1s3_T1_KSS1":     {"table_id":"20010548","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v1s3_TI_KSS1_QUEST","task":"KSS before PVT"},
-		"v1s3_TI_KSS1_QUEST":   {"table_id":"20010548","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
+		"v1s3_T1_KSS1":     {"table_id":"20010548","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v1s3_T1_KSS1_QUEST","task":"KSS before PVT"},
+		"v1s3_T1_KSS1_QUEST":   {"table_id":"20010548","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v1s3_T1_PVT":     {"table_id":"20010549","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v1s3_T1_KSS2":         {"table_id":"20010550","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v1s3_T1_KSS2_QUEST", "task": "KSS after PVT" },
 		"v1s3_T1_KSS2_QUEST":   {"table_id":"20010550","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
@@ -245,14 +241,14 @@
 		"v1s3_T4_PVT":     {"table_id":"20010562","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v1s3_T4_KSS2":         {"table_id":"20010563","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v1s3_T4_KSS2_QUEST", "task": "KSS after PVT" },
 		"v1s3_T4_KSS2_QUEST":   {"table_id":"20010563","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
-		"v1s3_T4_TOL":        {"table_id":"20010576","url":"modules/dynamic/task/Tower_of_London.html","notes":"v1s3_T4_TOL","redundant_form_module":"v1s3_T4_TOL_QUEST","task":"v1s3_T4_TOL"},
+		"v1s3_T4_TOL":        {"table_id":"20010576","url":"modules/dynamic/task/Tower_of_London.html","notes":"v1s3_T4_TOL","redundant_form_module":"v1s3_T4_TOL_QUEST","task":"Tower of London"},
 		"v1s3_T4_TOL_QUEST":  {"table_id":"20010576","url":"modules/dynamic/task/Tower_of_London.form.html"},
 		"v1s3_T4_1_back":        {"table_id":"20010573","url":"modules/dynamic/task/N_Back.html","notes":"v1s3_T4_1_back","redundant_form_module":"v1s3_T4_1_back_QUEST","task":"v1s3_T4_1_back"},
 		"v1s3_T4_1_back_QUEST":  {"table_id":"20010573","url":"modules/dynamic/task/1back.form.html"},
 
-		"v1s3_T5_2_back":        {"table_id":"20010574","url":"modules/dynamic/task/N_Back.html","notes":"v1s3_T5_2_back","task":"v1s3_T5_2_back"},
+		"v1s3_T5_2_back":        {"table_id":"20010574","url":"modules/dynamic/task/N_Back.html","notes":"v1s3_T5_2_back","task":"2-Back"},
 
-		"v1s3_T4_3_back":        {"table_id":"20010575","url":"modules/dynamic/task/N_Back.html","notes":"v1s3_T4_3_back","redundant_form_module":"v1s3_T4_3_back_QUEST","task":"v1s3_T4_3_back"},
+		"v1s3_T4_3_back":        {"table_id":"20010575","url":"modules/dynamic/task/N_Back.html","notes":"v1s3_T4_3_back","redundant_form_module":"v1s3_T4_3_back_QUEST","task":"2-Back"},
 		"v1s3_T4_3_back_QUEST":  {"table_id":"20010575","url":"modules/dynamic/task/3back.form.html"},
 		"v1s3_T5_KSS1":     {"table_id":"20010564","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v1s3_T5_KSS1_QUEST","task":"KSS before PVT"},
 		"v1s3_T5_KSS1_QUEST":   {"table_id":"20010564","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
@@ -272,13 +268,11 @@
 
 
 		"v2s4_Anthro":      {"table_id":"20010577","url":"modules/dynamic/task/Anthro.html","notes":"Visit 4 Anthropometry"},
-		"v2s4_T1_KSS1":     {"table_id":"20010578","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v2s4_TI_KSS1_QUEST","task":"KSS before PVT"},
-		"v2s4_TI_KSS1_QUEST":   {"table_id":"20010578","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
+		"v2s4_T1_KSS1":     {"table_id":"20010578","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v2s4_T1_KSS1_QUEST","task":"KSS before PVT"},
+		"v2s4_T1_KSS1_QUEST":   {"table_id":"20010578","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v2s4_T1_PVT":     {"table_id":"20010579","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v2s4_T1_KSS2":         {"table_id":"20010580","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v2s4_T1_KSS2_QUEST", "task": "KSS after PVT" },
 		"v2s4_T1_KSS2_QUEST":   {"table_id":"20010580","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
-		"v2s4_T1_TOL":        {"table_id":"20010584","url":"modules/dynamic/task/Tower_of_London.html","notes":"v2s4_T1_TOL","redundant_form_module":"v2s4_T1_TOL_QUEST","task":"v2s4_T1_TOL"},
-		"v2s4_T1_TOL_QUEST":  {"table_id":"20010584","url":"modules/dynamic/task/Tower_of_London.form.html"},
 		"v2s4_1_back":        {"table_id":"20010777","url":"modules/dynamic/task/N_Back.html","notes":"Screening 1-back Practice","redundant_form_module":"v2s4_1_back_QUEST","task":"1-back Practice"},
 		"v2s4_1_back_QUEST":  {"table_id":"20010777","url":"modules/dynamic/task/1back_Practice.form.html"},
 		"v2s5_2_back":        {"table_id":"20010778","url":"modules/dynamic/task/N_Back.html","notes":"Screening 2-back Practice","redundant_form_module":"v2s5_2_back_QUEST","task":"2-back Practice"},
@@ -292,7 +286,7 @@
 		"v2s4_T2_KSS2_QUEST":   {"table_id":"20010587","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v2s4_T2_1_back":        {"table_id":"20010581","url":"modules/dynamic/task/N_Back.html","notes":"v2s4_T2_1_back","redundant_form_module":"v2s4_T2_1_back_QUEST","task":"v2s4_T2_1_back"},
 		"v2s4_T2_1_back_QUEST":  {"table_id":"20010581","url":"modules/dynamic/task/1back.form.html"},
-		"v2s4_T5_2_back":        {"table_id":"20010582","url":"modules/dynamic/task/N_Back.html","notes":"v2s4_T5_2_back","redundant_form_module":"v2s4_T5_2_back_QUEST","task":"v2s4_T2_2_back"},
+		"v2s4_T5_2_back":        {"table_id":"20010582","url":"modules/dynamic/task/N_Back.html","notes":"v2s4_T5_2_back","redundant_form_module":"v2s4_T5_2_back_QUEST","task":"2-Back"},
 		"v2s4_T5_2_back_QUEST":  {"table_id":"20010582","url":"modules/dynamic/task/2back.form.html"},
 		"v2s4_T2_3_back":        {"table_id":"20010583","url":"modules/dynamic/task/N_Back.html","notes":"v2s4_T2_3_back","redundant_form_module":"v2s4_T2_3_back_QUEST","task":"v2s4_T2_3_back"},
 		"v2s4_T2_3_back_QUEST":  {"table_id":"20010583","url":"modules/dynamic/task/3back.form.html"},
@@ -310,7 +304,7 @@
 		"v2s4_T4_PVT":     {"table_id":"20010592","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v2s4_T4_KSS2":         {"table_id":"20010593","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v2s4_T4_KSS2_QUEST", "task": "KSS after PVT" },
 		"v2s4_T4_KSS2_QUEST":   {"table_id":"20010593","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
-		"v2s4_T4_TOL":        {"table_id":"20010606","url":"modules/dynamic/task/Tower_of_London.html","notes":"v2s4_T4_TOL","redundant_form_module":"v2s4_T4_TOL_QUEST","task":"v2s4_T4_TOL"},
+		"v2s4_T4_TOL":        {"table_id":"20010606","url":"modules/dynamic/task/Tower_of_London.html","notes":"v2s4_T4_TOL","redundant_form_module":"v2s4_T4_TOL_QUEST","task":"Tower of London"},
 		"v2s4_T4_TOL_QUEST":  {"table_id":"20010606","url":"modules/dynamic/task/Tower_of_London.form.html"},
 		"v2s4_T5_KSS1":     {"table_id":"20010594","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v2s4_T5_KSS1_QUEST","task":"KSS before PVT"},
 		"v2s4_T5_KSS1_QUEST":   {"table_id":"20010594","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
@@ -325,8 +319,8 @@
 
 
 		"v2s5_Anthro":      {"table_id":"20010607","url":"modules/dynamic/task/Anthro.html","notes":"Visit 5 Anthropometry"},
-		"v2s5_T1_KSS1":     {"table_id":"20010608","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v2s5_TI_KSS1_QUEST","task":"KSS before PVT"},
-		"v2s5_TI_KSS1_QUEST":   {"table_id":"20010608","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
+		"v2s5_T1_KSS1":     {"table_id":"20010608","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v2s5_T1_KSS1_QUEST","task":"KSS before PVT"},
+		"v2s5_T1_KSS1_QUEST":   {"table_id":"20010608","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v2s5_T1_PVT":     {"table_id":"20010609","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v2s5_T1_KSS2":         {"table_id":"20010610","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v2s5_T1_KSS2_QUEST", "task": "KSS after PVT" },
 		"v2s5_T1_KSS2_QUEST":   {"table_id":"20010610","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
@@ -353,7 +347,7 @@
 		"v2s5_T4_TOL_QUEST":  {"table_id":"20010636","url":"modules/dynamic/task/Tower_of_London.form.html"},
 		"v2s5_T4_1_back":        {"table_id":"20010633","url":"modules/dynamic/task/N_Back.html","notes":"v2s5_T4_1_back","redundant_form_module":"v2s5_T4_1_back_QUEST","task":"v2s5_T4_1_back"},
 		"v2s5_T4_1_back_QUEST":  {"table_id":"20010633","url":"modules/dynamic/task/1back.form.html"},
-		"v2s5_T5_2_back":        {"table_id":"20010634","url":"modules/dynamic/task/N_Back.html","notes":"v2s5_T5_2_back","redundant_form_module":"v2s5_T5_2_back_QUEST","task":"v2s5_T5_2_back"},
+		"v2s5_T5_2_back":        {"table_id":"20010634","url":"modules/dynamic/task/N_Back.html","notes":"v2s5_T5_2_back","redundant_form_module":"v2s5_T5_2_back_QUEST","task":"2-Back"},
 		"v2s5_T5_2_back_QUEST":  {"table_id":"20010634","url":"modules/dynamic/task/2back.form.html"},
 		"v2s5_T4_3_back":        {"table_id":"20010635","url":"modules/dynamic/task/N_Back.html","notes":"v2s5_T4_3_back","redundant_form_module":"v2s5_T4_3_back_QUEST","task":"v2s5_T4_3_back"},
 		"v2s5_T4_3_back_QUEST":  {"table_id":"20010635","url":"modules/dynamic/task/3back.form.html"},
@@ -375,8 +369,8 @@
 
 
 		"v2s6_Anthro":      {"table_id":"20010637","url":"modules/dynamic/task/Anthro.html","notes":"Visit 6 Anthropometry"},
-		"v2s6_T1_KSS1":     {"table_id":"20010638","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v2s6_TI_KSS1_QUEST","task":"KSS before PVT"},
-		"v2s6_TI_KSS1_QUEST":   {"table_id":"20010638","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
+		"v2s6_T1_KSS1":     {"table_id":"20010638","url":"modules/dynamic/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v2s6_T1_KSS1_QUEST","task":"KSS before PVT"},
+		"v2s6_T1_KSS1_QUEST":   {"table_id":"20010638","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v2s6_T1_PVT":     {"table_id":"20010639","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v2s6_T1_KSS2":         {"table_id":"20010640","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v2s6_T1_KSS2_QUEST", "task": "KSS after PVT" },
 		"v2s6_T1_KSS2_QUEST":   {"table_id":"20010640","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
@@ -399,11 +393,11 @@
 		"v2s6_T4_PVT":     {"table_id":"20010652","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v2s6_T4_KSS2":         {"table_id":"20010653","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v2s6_T4_KSS2_QUEST", "task": "KSS after PVT" },
 		"v2s6_T4_KSS2_QUEST":   {"table_id":"20010653","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
-		"v2s6_T4_TOL":        {"table_id":"20010666","url":"modules/dynamic/task/Tower_of_London.html","notes":"v2s6_T4_TOL","redundant_form_module":"v2s6_T4_TOL_QUEST","task":"v2s6_T4_TOL"},
+		"v2s6_T4_TOL":        {"table_id":"20010666","url":"modules/dynamic/task/Tower_of_London.html","notes":"v2s6_T4_TOL","redundant_form_module":"v2s6_T4_TOL_QUEST","task":"Tower of London"},
 		"v2s6_T4_TOL_QUEST":  {"table_id":"20010666","url":"modules/dynamic/task/Tower_of_London.form.html"},
 		"v2s6_T4_1_back":        {"table_id":"20010663","url":"modules/dynamic/task/N_Back.html","notes":"v2s6_T4_1_back","redundant_form_module":"v2s6_T4_1_back_QUEST","task":"v2s6_T4_1_back"},
 		"v2s6_T4_1_back_QUEST":  {"table_id":"20010663","url":"modules/dynamic/task/1back.form.html"},
-		"v2s6_T5_2_back":        {"table_id":"20010664","url":"modules/dynamic/task/N_Back.html","notes":"v2s6_T5_2_back","redundant_form_module":"v2s6_T5_2_back_QUEST","task":"v2s6_T5_2_back"},
+		"v2s6_T5_2_back":        {"table_id":"20010664","url":"modules/dynamic/task/N_Back.html","notes":"v2s6_T5_2_back","redundant_form_module":"v2s6_T5_2_back_QUEST","task":"2-Back"},
 		"v2s6_T5_2_back_QUEST":  {"table_id":"20010664","url":"modules/dynamic/task/2back.form.html"},
 		"v2s6_T4_3_back":        {"table_id":"20010665","url":"modules/dynamic/task/N_Back.html","notes":"v2s6_T4_3_back","redundant_form_module":"v2s6_T4_3_back_QUEST","task":"v2s6_T4_3_back"},
 		"v2s6_T4_3_back_QUEST":  {"table_id":"20010665","url":"modules/dynamic/task/3back.form.html"},
@@ -422,206 +416,175 @@
 		"v2s6_T7_PVT":     {"table_id":"20010661","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v2s6_T7_KSS2":         {"table_id":"20010662","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v2s6_T7_KSS2_QUEST", "task": "KSS after PVT" },
 		"v2s6_T7_KSS2_QUEST":   {"table_id":"20010662","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"}
-	},
-	"quest_list":{
-		"Visit 1 Shift 1 Trial 1 (19:00 PM)":[
-			"v1s3_T5_2_back",
-			"v1s1_T1_KSS1",
-			"v1s1_T1_KSS2"
-		]
-	},
-	"_quest_list":{
-		"Visit 1 Shift 1 Trial 1 (19:00 PM)":[
-			"v1s1_T1_KSS1",
-			"v1s1_T1_KSS2",
-			"v1s1_T1_TOL",
-			"v1s1_1_back",
-			"v1s1_2_back",
-			"v1s1_3_back"
-		],
-		"Visit 1 Shift 1 Trial 2 (21:00 PM)":[
-			"v1s1_T2_KSS1",
-			"v1s1_T2_KSS2",
-			"v1s1_T2_1_back",
-			"v1s1_T2_2_back",
-			"v1s1_T2_3_back"
-		],
-		"Visit 1 Shift 1 Trial 3 (23:00 PM)":[
-			"v1s1_T3_KSS1",
-			"v1s1_T3_KSS2"
-		],
-		"Visit 1 Shift 1 Trial 4 (01:00 AM)":[
-			"v1s1_T4_KSS1",
-			"v1s1_T4_KSS2"
-		],
-		"Visit 1 Shift 1 Trial 5 (03:00 AM)":[
-			"v1s1_T5_KSS1",
-			"v1s1_T5_KSS2"
-		],
-		"Visit 1 Shift 1 Trial 6 (05:00 AM)":[
-			"v1s1_T6_KSS1",
-			"v1s1_T6_PVT",
-			"v1s1_T6_KSS2"
-		],
-		"Visit 1 Shift 2 Trial 1 (19:00 PM)":[
-			"v1s2_T1_KSS1",
-			"v1s2_T1_KSS2"
-		],
-		"Visit 1 Shift 2 Trial 2 (21:00 PM)":[
-			"v1s2_T2_KSS1",
-			"v1s2_T2_KSS2"
-		],
-		"Visit 1 Shift 2 Trial 3 (23:00 PM)":[
-			"v1s2_T3_KSS1",
-			"v1s2_T3_KSS2"
-		],
-		"Visit 1 Shift 2 Trial 4 (01:00 AM)":[
-			"v1s2_T4_KSS1",
-			"v1s2_T4_KSS2",
-			"v1s2_T4_TOL",
-			"v1s2_T4_1_back",
-			"v1s2_T5_2_back",
-			"v1s2_T4_3_back"
-		],
-		"Visit 1 Shift 2 Trial 5 (03:00 AM)":[
-			"v1s2_T5_KSS1",
-			"v1s2_T5_KSS2"
-		],
-		"Visit 1 Shift 2 Trial 6 (05:00 AM)":[
-			"v1s2_T6_KSS1",
-			"v1s2_T6_KSS2"
-		],
-		"Visit 1 Shift 2 Trial 7 (07:00 AM)":[
-			"v1s2_T7_KSS1",
-			"v1s2_T7_KSS2"
-		],
-		"Visit 1 Shift 3 Trial 1 (19:00 PM)":[
-			"v1s3_T1_KSS1",
-			"v1s3_T1_KSS2"
-		],
-		"Visit 1 Shift 3 Trial 2 (21:00 PM)":[
-			"v1s3_T2_KSS1",
-			"v1s3_T2_KSS2"
-		],
-		"Visit 1 Shift 3 Trial 3 (23:00 PM)":[
-			"v1s3_T3_KSS1",
-			"v1s3_T3_KSS2"
-		],
-		"Visit 1 Shift 3 Trial 4 (01:00 AM)":[
-			"v1s3_T4_KSS1",
-			"v1s3_T4_KSS2",
-			"v1s3_T4_TOL",
-			"v1s3_T4_1_back",
-			"v1s3_T5_2_back",
-			"v1s3_T4_3_back"
-		],
-		"Visit 1 Shift 3 Trial 5 (03:00 AM)":[
-			"v1s3_T5_KSS1",
-			"v1s3_T5_KSS2"
-		],
-		"Visit 1 Shift 3 Trial 6 (05:00 AM)":[
-			"v1s3_T6_KSS1",
-			"v1s3_T6_KSS2"
-		],
-		"Visit 1 Shift 3 Trial 7 (07:00 AM)":[
-			"v1s3_T7_KSS1",
-			"v1s3_T7_KSS2"
-		],
-		"Visit 2 Shift 4 Trial 1 (19:00 PM)":[
-			"v2s4_T1_KSS1",
-			"v2s4_T1_KSS2",
-			"v2s4_T1_TOL",
-			"v2s4_1_back",
-			"v2s5_2_back",
-			"v2s4_3_back"
-		],
-		"Visit 2 Shift 4 Trial 2 (21:00 PM)":[
-			"v2s4_T2_KSS1",
-			"v2s4_T2_KSS2",
-			"v2s4_T2_1_back",
-			"v2s4_T2_2_back",
-			"v2s4_T2_3_back"
-		],
-		"Visit 2 Shift 4 Trial 3 (23:00 PM)":[
-			"v2s4_T3_KSS1",
-			"v2s4_T3_KSS2"
-		],
-		"Visit 2 Shift 4 Trial 4 (01:00 AM)":[
-			"v2s4_T4_KSS1",
-			"v2s4_T4_KSS2",
-			"v2s4_T4_TOL"
-		],
-		"Visit 2 Shift 4 Trial 5 (03:00 AM)":[
-			"v2s4_T5_KSS1",
-			"v2s4_T5_KSS2"
-		],
-		"Visit 2 Shift 4 Trial 6 (05:00 AM)":[
-			"v2s4_T6_KSS1",
-			"v2s4_T6_KSS2"
-		],
-		"Visit 2 Shift 5 Trial 1 (19:00 PM)":[
-			"v2s5_T1_KSS1",
-			"v2s5_T1_KSS2"
-		],
-		"Visit 2 Shift 5 Trial 2 (21:00 PM)":[
-			"v2s5_T2_KSS1",
-			"v2s5_T2_KSS2"
-		],
-		"Visit 2 Shift 5 Trial 3 (23:00 PM)":[
-			"v2s5_T3_KSS1",
-			"v2s5_T3_KSS2"
-		],
-		"Visit 2 Shift 5 Trial 4 (01:00 AM)":[
-			"v2s5_T4_KSS1",
-			"v2s5_T4_KSS2",
-			"v2s5_T4_TOL",
-			"v2s5_T4_1_back",
-			"v2s5_T5_2_back",
-			"v2s5_T4_3_back"
-		],
-		"Visit 2 Shift 5 Trial 5 (03:00 AM)":[
-			"v2s5_T5_KSS1",
-			"v2s5_T5_KSS2"
-		],
-		"Visit 2 Shift 5 Trial 6 (05:00 AM)":[
-			"v2s5_T6_KSS1",
-			"v2s5_T6_KSS2"
-		],
-		"Visit 2 Shift 5 Trial 7 (07:00 AM)":[
-			"v2s5_T7_KSS1",
-			"v2s5_T7_KSS2"
-		],
-		"Visit 2 Shift 6 Trial 1 (19:00 PM)":[
-			"v2s6_T1_KSS1",
-			"v2s6_T1_KSS2"
-		],
-		"Visit 2 Shift 6 Trial 2 (21:00 PM)":[
-			"v2s6_T2_KSS1",
-			"v2s6_T2_KSS2"
-		],
-		"Visit 2 Shift 6 Trial 3 (23:00 PM)":[
-			"v2s6_T3_KSS1",
-			"v2s6_T3_KSS2"
-		],
-		"Visit 2 Shift 6 Trial 4 (01:00 AM)":[
-			"v2s6_T4_KSS1",
-			"v2s6_T4_KSS2",
-			"v2s6_T4_TOL",
-			"v2s6_T4_1_back",
-			"v2s6_T5_2_back",
-			"v2s6_T4_3_back"
-		],
-		"Visit 2 Shift 6 Trial 5 (03:00 AM)":[
-			"v2s6_T5_KSS1",
-			"v2s6_T5_KSS2"
-		],
-		"Visit 2 Shift 6 Trial 6 (05:00 AM)":[
-			"v2s6_T6_KSS1",
-			"v2s6_T6_KSS2"
-		],
-		"Visit 2 Shift 6 Trial 7 (07:00 AM)":[
-			"v2s6_T7_KSS1",
-			"v2s6_T7_KSS2"
-		]
-	}
+		},
+		"quest_list":{
+		    "Visit 1 Shift 1 Trial 1 (20:15 PM)":[
+		        "v1s1_T1_KSS1",
+		        "v1s1_T1_KSS2"
+		    ],
+		    "Visit 1 Shift 1 Trial 2 (22:00 PM)":[
+		        "v1s1_T2_KSS1",
+		        "v1s1_T2_KSS2"
+		    ],
+		    "Visit 1 Shift 1 Trial 3 (24:00 PM)":[
+		        "v1s1_T3_KSS1",
+		        "v1s1_T3_KSS2"
+		    ],
+		    "Visit 1 Shift 1 Trial 4 (02:00 AM)":[
+		        "v1s1_T4_KSS1",
+		        "v1s1_T4_KSS2",
+		        "v1s1_T4_TOL"
+		    ],
+		    "Visit 1 Shift 1 Trial 5 (04:00 AM)":[
+		        "v1s1_T5_KSS1",
+		        "v1s1_T5_KSS2",
+		        "v1s1_T5_Stroop_colour",
+		        "v1s1_T5_Stroop_text",
+		        "v1s1_T5_2_back"
+		    ],
+		    "Visit 1 Shift 1 Trial 6 (05:30 AM)":[
+		        "v1s1_T6_KSS1",
+		        "v1s1_T6_KSS2"
+		    ],
+		    "Visit 1 Shift 2 Trial 1 (20:15 PM)":[
+		        "v1s2_T1_KSS1",
+		        "v1s2_T1_KSS2"
+		    ],
+		    "Visit 1 Shift 2 Trial 2 (22:00 PM)":[
+		        "v1s2_T2_KSS1",
+		        "v1s2_T2_KSS2"
+		    ],
+		    "Visit 1 Shift 2 Trial 3 (24:00 PM)":[
+		        "v1s2_T3_KSS1",
+		        "v1s2_T3_KSS2"
+		    ],
+		    "Visit 1 Shift 2 Trial 4 (02:00 AM)":[
+		        "v1s2_T4_KSS1",
+		        "v1s2_T4_KSS2",
+		        "v1s2_T4_TOL"
+		    ],
+		    "Visit 1 Shift 2 Trial 5 (04:00 AM)":[
+		        "v1s2_T5_KSS1",
+		        "v1s2_T5_KSS2",
+		        "v1s2_T5_Stroop_colour",
+		        "v1s2_T5_Stroop_text",
+		        "v1s2_T5_2_back"
+		    ],
+		    "Visit 1 Shift 2 Trial 6 (05:30 AM)":[
+		        "v1s2_T6_KSS1",
+		        "v1s2_T6_KSS2"
+		    ],
+		    "Visit 1 Shift 3 Trial 1 (20:15 PM)":[
+		        "v1s3_T1_KSS1",
+		        "v1s3_T1_KSS2"
+		    ],
+		    "Visit 1 Shift 3 Trial 2 (22:00 PM)":[
+		        "v1s3_T2_KSS1",
+		        "v1s3_T2_KSS2"
+		    ],
+		    "Visit 1 Shift 3 Trial 3 (24:00 PM)":[
+		        "v1s3_T3_KSS1",
+		        "v1s3_T3_KSS2"
+		    ],
+		    "Visit 1 Shift 3 Trial 4 (02:00 AM)":[
+		        "v1s3_T4_KSS1",
+		        "v1s3_T4_KSS2",
+		        "v1s3_T4_TOL"
+		    ],
+		    "Visit 1 Shift 3 Trial 5 (04:00 AM)":[
+		        "v1s3_T5_KSS1",
+		        "v1s3_T5_KSS2",
+		        "v1s3_T5_Stroop_colour",
+		        "v1s3_T5_Stroop_text",
+		        "v1s3_T5_2_back"
+		    ],
+		    "Visit 1 Shift 3 Trial 6 (05:30 AM)":[
+		        "v1s3_T6_KSS1",
+		        "v1s3_T6_KSS2"
+		    ],
+		    "Visit 2 Shift 4 Trial 1 (20:15 PM)":[
+		        "v2s4_T1_KSS1",
+		        "v2s4_T1_KSS2"
+		    ],
+		    "Visit 2 Shift 4 Trial 2 (22:00 PM)":[
+		        "v2s4_T2_KSS1",
+		        "v2s4_T2_KSS2"
+		    ],
+		    "Visit 2 Shift 4 Trial 3 (24:00 PM)":[
+		        "v2s4_T3_KSS1",
+		        "v2s4_T3_KSS2"
+		    ],
+		    "Visit 2 Shift 4 Trial 4 (02:00 AM)":[
+		        "v2s4_T4_KSS1",
+		        "v2s4_T4_KSS2",
+		        "v2s4_T4_TOL"
+		    ],
+		    "Visit 2 Shift 4 Trial 5 (04:00 AM)":[
+		        "v2s4_T5_KSS1",
+		        "v2s4_T5_KSS2",
+		        "v2s4_T5_Stroop_colour",
+		        "v2s4_T5_Stroop_text",
+		        "v2s4_T5_2_back"
+		    ],
+		    "Visit 2 Shift 4 Trial 6 (05:30 AM)":[
+		        "v2s4_T6_KSS1",
+		        "v2s4_T6_KSS2"
+		    ],
+		    "Visit 2 Shift 5 Trial 1 (20:15 PM)":[
+		        "v2s5_T1_KSS1",
+		        "v2s5_T1_KSS2"
+		    ],
+		    "Visit 2 Shift 5 Trial 2 (22:00 PM)":[
+		        "v2s5_T2_KSS1",
+		        "v2s5_T2_KSS2"
+		    ],
+		    "Visit 2 Shift 5 Trial 3 (24:00 PM)":[
+		        "v2s5_T3_KSS1",
+		        "v2s5_T3_KSS2"
+		    ],
+		    "Visit 2 Shift 5 Trial 4 (02:00 AM)":[
+		        "v2s5_T4_KSS1",
+		        "v2s5_T4_KSS2",
+		        "v2s5_T4_TOL"
+		    ],
+		    "Visit 2 Shift 5 Trial 5 (04:00 AM)":[
+		        "v2s5_T5_KSS1",
+		        "v2s5_T5_KSS2",
+		        "v2s5_T5_Stroop_colour",
+		        "v2s5_T5_Stroop_text",
+		        "v2s5_T5_2_back"
+		    ],
+		    "Visit 2 Shift 5 Trial 6 (05:30 AM)":[
+		        "v2s5_T6_KSS1",
+		        "v2s5_T6_KSS2"
+		    ],
+		    "Visit 2 Shift 6 Trial 1 (20:15 PM)":[
+		        "v2s6_T1_KSS1",
+		        "v2s6_T1_KSS2"
+		    ],
+		    "Visit 2 Shift 6 Trial 2 (22:00 PM)":[
+		        "v2s6_T2_KSS1",
+		        "v2s6_T2_KSS2"
+		    ],
+		    "Visit 2 Shift 6 Trial 3 (24:00 PM)":[
+		        "v2s6_T3_KSS1",
+		        "v2s6_T3_KSS2"
+		    ],
+		    "Visit 2 Shift 6 Trial 4 (02:00 AM)":[
+		        "v2s6_T4_KSS1",
+		        "v2s6_T4_KSS2",
+		        "v2s6_T4_TOL"
+		    ],
+		    "Visit 2 Shift 6 Trial 5 (04:00 AM)":[
+		        "v2s6_T5_KSS1",
+		        "v2s6_T5_KSS2",
+		        "v2s6_T5_Stroop_colour",
+		        "v2s6_T5_Stroop_text",
+		        "v2s6_T5_2_back"
+		    ],
+		    "Visit 2 Shift 6 Trial 6 (05:30 AM)":[
+		        "v2s6_T6_KSS1",
+		        "v2s6_T6_KSS2"
+		    ]
+		}
 }
