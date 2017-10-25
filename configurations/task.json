@@ -101,26 +101,26 @@
 		"v2s5_T4_VF":        {"table_id":"20011321","url":"modules/dynamic/task/File_upload.html","notes":"v2s5_T4_VF"},
 		"v2s6_T4_VF":        {"table_id":"20011322","url":"modules/dynamic/task/File_upload.html","notes":"v2s6_T4_VF"},
 
-		"v1s1_T6_PAT1":        {"table_id":"20011323","url":"modules/dynamic/task/File_upload.html","notes":"v1s1_T6_PAT1"},
-		"v1s2_T6_PAT1":        {"table_id":"20011324","url":"modules/dynamic/task/File_upload.html","notes":"v1s2_T6_PAT1"},
-		"v1s3_T6_PAT1":        {"table_id":"20011325","url":"modules/dynamic/task/File_upload.html","notes":"v1s3_T6_PAT1"},
-		"v2s4_T6_PAT1":        {"table_id":"20011326","url":"modules/dynamic/task/File_upload.html","notes":"v2s4_T6_PAT1"},
-		"v2s5_T6_PAT1":        {"table_id":"20011327","url":"modules/dynamic/task/File_upload.html","notes":"v2s5_T6_PAT1"},
-		"v2s6_T6_PAT1":        {"table_id":"20011328","url":"modules/dynamic/task/File_upload.html","notes":"v2s6_T6_PAT1"},
+		"v1s1_T6_PAT1":        {"table_id":"20011323","url":"modules/dynamic/task/File_upload.html","notes":"v1s1_T6_PAT1","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v1s2_T6_PAT1":        {"table_id":"20011324","url":"modules/dynamic/task/File_upload.html","notes":"v1s2_T6_PAT1","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v1s3_T6_PAT1":        {"table_id":"20011325","url":"modules/dynamic/task/File_upload.html","notes":"v1s3_T6_PAT1","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v2s4_T6_PAT1":        {"table_id":"20011326","url":"modules/dynamic/task/File_upload.html","notes":"v2s4_T6_PAT1","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v2s5_T6_PAT1":        {"table_id":"20011327","url":"modules/dynamic/task/File_upload.html","notes":"v2s5_T6_PAT1","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v2s6_T6_PAT1":        {"table_id":"20011328","url":"modules/dynamic/task/File_upload.html","notes":"v2s6_T6_PAT1","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
 
-		"v1s1_T6_PAT2":        {"table_id":"20011329","url":"modules/dynamic/task/File_upload.html","notes":"v1s1_T6_PAT2"},
-		"v1s2_T6_PAT2":        {"table_id":"20011330","url":"modules/dynamic/task/File_upload.html","notes":"v1s2_T6_PAT2"},
-		"v1s3_T6_PAT2":        {"table_id":"20011331","url":"modules/dynamic/task/File_upload.html","notes":"v1s3_T6_PAT2"},
-		"v2s4_T6_PAT2":        {"table_id":"20011332","url":"modules/dynamic/task/File_upload.html","notes":"v2s4_T6_PAT2"},
-		"v2s5_T6_PAT2":        {"table_id":"20011333","url":"modules/dynamic/task/File_upload.html","notes":"v2s5_T6_PAT2"},
-		"v2s6_T6_PAT2":        {"table_id":"20011334","url":"modules/dynamic/task/File_upload.html","notes":"v2s6_T6_PAT2"},
+		"v1s1_T6_PAT2":        {"table_id":"20011329","url":"modules/dynamic/task/File_upload.html","notes":"v1s1_T6_PAT2","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v1s2_T6_PAT2":        {"table_id":"20011330","url":"modules/dynamic/task/File_upload.html","notes":"v1s2_T6_PAT2","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v1s3_T6_PAT2":        {"table_id":"20011331","url":"modules/dynamic/task/File_upload.html","notes":"v1s3_T6_PAT2","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v2s4_T6_PAT2":        {"table_id":"20011332","url":"modules/dynamic/task/File_upload.html","notes":"v2s4_T6_PAT2","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v2s5_T6_PAT2":        {"table_id":"20011333","url":"modules/dynamic/task/File_upload.html","notes":"v2s5_T6_PAT2","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v2s6_T6_PAT2":        {"table_id":"20011334","url":"modules/dynamic/task/File_upload.html","notes":"v2s6_T6_PAT2","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
 
-		"v1s1_T6_PAT3":        {"table_id":"20011335","url":"modules/dynamic/task/File_upload.html","notes":"v1s1_T6_PAT3"},
-		"v1s2_T6_PAT3":        {"table_id":"20011336","url":"modules/dynamic/task/File_upload.html","notes":"v1s2_T6_PAT3"},
-		"v1s3_T6_PAT3":        {"table_id":"20011337","url":"modules/dynamic/task/File_upload.html","notes":"v1s3_T6_PAT3"},
-		"v2s4_T6_PAT3":        {"table_id":"20011338","url":"modules/dynamic/task/File_upload.html","notes":"v2s4_T6_PAT3"},
-		"v2s5_T6_PAT3":        {"table_id":"20011339","url":"modules/dynamic/task/File_upload.html","notes":"v2s5_T6_PAT3"},
-		"v2s6_T6_PAT3":        {"table_id":"20011340","url":"modules/dynamic/task/File_upload.html","notes":"v2s6_T6_PAT3"},
+		"v1s1_T6_PAT3":        {"table_id":"20011335","url":"modules/dynamic/task/File_upload.html","notes":"v1s1_T6_PAT3","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v1s2_T6_PAT3":        {"table_id":"20011336","url":"modules/dynamic/task/File_upload.html","notes":"v1s2_T6_PAT3","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v1s3_T6_PAT3":        {"table_id":"20011337","url":"modules/dynamic/task/File_upload.html","notes":"v1s3_T6_PAT3","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v2s4_T6_PAT3":        {"table_id":"20011338","url":"modules/dynamic/task/File_upload.html","notes":"v2s4_T6_PAT3","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v2s5_T6_PAT3":        {"table_id":"20011339","url":"modules/dynamic/task/File_upload.html","notes":"v2s5_T6_PAT3","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
+		"v2s6_T6_PAT3":        {"table_id":"20011340","url":"modules/dynamic/task/File_upload.html","notes":"v2s6_T6_PAT3","task":"Visit 1 Shift 1 Trial 6 PAT 1"},
 
 
 		"v1s1_Anthro":      {"table_id":"20010487","url":"modules/dynamic/task/Anthro.html","notes":"Visit 1 Anthropometry"},
@@ -444,7 +444,10 @@
 		    ],
 		    "Visit 1 Shift 1 Trial 6 (05:30 AM)":[
 		        "v1s1_T6_KSS1",
-		        "v1s1_T6_KSS2"
+		        "v1s1_T6_KSS2",
+				"v1s1_T6_PAT1",
+				"v1s1_T6_PAT2",
+				"v1s1_T6_PAT3"
 		    ],
 		    "Visit 1 Shift 2 Trial 1 (20:15 PM)":[
 		        "v1s2_T1_KSS1",
@@ -472,7 +475,10 @@
 		    ],
 		    "Visit 1 Shift 2 Trial 6 (05:30 AM)":[
 		        "v1s2_T6_KSS1",
-		        "v1s2_T6_KSS2"
+		        "v1s2_T6_KSS2",
+				"v1s2_T6_PAT1",
+				"v1s2_T6_PAT2",
+				"v1s2_T6_PAT3"
 		    ],
 		    "Visit 1 Shift 3 Trial 1 (20:15 PM)":[
 		        "v1s3_T1_KSS1",
@@ -500,7 +506,10 @@
 		    ],
 		    "Visit 1 Shift 3 Trial 6 (05:30 AM)":[
 		        "v1s3_T6_KSS1",
-		        "v1s3_T6_KSS2"
+		        "v1s3_T6_KSS2",
+				"v1s3_T6_PAT1",
+				"v1s3_T6_PAT2",
+				"v1s3_T6_PAT3"
 		    ],
 		    "Visit 2 Shift 4 Trial 1 (20:15 PM)":[
 		        "v2s4_T1_KSS1",
@@ -528,7 +537,10 @@
 		    ],
 		    "Visit 2 Shift 4 Trial 6 (05:30 AM)":[
 		        "v2s4_T6_KSS1",
-		        "v2s4_T6_KSS2"
+		        "v2s4_T6_KSS2",
+				"v2s4_T6_PAT1",
+				"v2s4_T6_PAT2",
+				"v2s4_T6_PAT3"
 		    ],
 		    "Visit 2 Shift 5 Trial 1 (20:15 PM)":[
 		        "v2s5_T1_KSS1",
@@ -556,7 +568,10 @@
 		    ],
 		    "Visit 2 Shift 5 Trial 6 (05:30 AM)":[
 		        "v2s5_T6_KSS1",
-		        "v2s5_T6_KSS2"
+		        "v2s5_T6_KSS2",
+				"v2s5_T6_PAT1",
+				"v2s5_T6_PAT2",
+				"v2s5_T6_PAT3"
 		    ],
 		    "Visit 2 Shift 6 Trial 1 (20:15 PM)":[
 		        "v2s6_T1_KSS1",
@@ -584,7 +599,10 @@
 		    ],
 		    "Visit 2 Shift 6 Trial 6 (05:30 AM)":[
 		        "v2s6_T6_KSS1",
-		        "v2s6_T6_KSS2"
+		        "v2s6_T6_KSS2",
+				"v2s6_T6_PAT1",
+				"v2s6_T6_PAT2",
+				"v2s6_T6_PAT3"
 		    ]
 		}
 }
