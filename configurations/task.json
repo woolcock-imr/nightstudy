@@ -432,10 +432,16 @@
 		    ],
 		    "Visit 1 Shift 1 Trial 6 (05:30 AM)":[
 		        "v1s1_T6_KSS1",
-		        "v1s1_T6_KSS2"
+		        "v1s1_T6_KSS2",
+				"v1s1_T6_PAT1",
+				"v1s1_T6_PAT2_T1_1",
+				"v1s1_T6_PAT2_T2_1",
+				"v1s1_T6_PAT2_T3_1",
+				"v1s1_T6_PAT2_T4_1"
 		    ],
 		    "Visit 1 Shift 2 Trial 1 (20:15 PM)":[
-		        "v1s2_T1_KSS1",
+				"v1s2_T0_PAT3",
+			    "v1s2_T1_KSS1",
 		        "v1s2_T1_KSS2"
 		    ],
 		    "Visit 1 Shift 2 Trial 2 (22:00 PM)":[
@@ -459,11 +465,17 @@
 		        "v1s2_T5_2_back"
 		    ],
 		    "Visit 1 Shift 2 Trial 6 (05:30 AM)":[
-		        "v1s2_T6_KSS1",
-		        "v1s2_T6_KSS2"
+				"v1s2_T6_KSS1",
+		        "v1s2_T6_KSS2",
+				"v1s2_T6_PAT1",
+				"v1s2_T6_PAT2_T1_2",
+				"v1s2_T6_PAT2_T2_2",
+				"v1s2_T6_PAT2_T3_2",
+				"v1s2_T6_PAT2_T4_2"
 		    ],
 		    "Visit 1 Shift 3 Trial 1 (20:15 PM)":[
-		        "v1s3_T1_KSS1",
+				"v1s3_T0_PAT3",
+				"v1s3_T1_KSS1",
 		        "v1s3_T1_KSS2"
 		    ],
 		    "Visit 1 Shift 3 Trial 2 (22:00 PM)":[
