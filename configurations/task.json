@@ -106,7 +106,7 @@
 		"v1s1_T6_PAT2_T2_1":        {"table_id":"20011325","url":"modules/dynamic/task/Set1Trial2_Evening_Wordpairs.html","notes":"v1s1_T6_PAT2_T2_1"},
 		"v1s1_T6_PAT2_T3_1":        {"table_id":"20011326","url":"modules/dynamic/task/Set1Trial3_Evening_Wordpairs.html","notes":"v1s1_T6_PAT2_T3_1"},
 		"v1s1_T6_PAT2_T4_1":        {"table_id":"20011327","url":"modules/dynamic/task/Set1Trial4_Evening_Wordpairs.html","notes":"v1s1_T6_PAT2_T4_1"},
-		"v1s2_T0_PAT3":        {"table_id":"20011328","url":"modules/dynamic/task/Set1_Morning_Wordpairs.html","notes":"v1s2_T0_PAT3"},
+		"v1s2_T0_PAT3":        {"table_id":"20011328","url":"modules/dynamic/task/Set1_Morning_Wordpairs.html","notes":"v1s2_T0_PAT3","task":"PAT Trial 1"},
 
 		"v1s2_T6_PAT1":        {"table_id":"20011329","url":"modules/dynamic/task/Set2_evening_wordpairs_practice.html","notes":"v1s2_T6_PAT1"},
 		"v1s2_T6_PAT2_T1_2":        {"table_id":"20011330","url":"modules/dynamic/task/Set2_evening_wordpairs_T1.html","notes":"v1s2_T6_PAT2_T1_2"},
@@ -432,15 +432,9 @@
 		    ],
 		    "Visit 1 Shift 1 Trial 6 (05:30 AM)":[
 		        "v1s1_T6_KSS1",
-		        "v1s1_T6_KSS2",
-				"v1s1_T6_PAT1",
-				"v1s1_T6_PAT2_T1_1",
-				"v1s1_T6_PAT2_T2_1",
-				"v1s1_T6_PAT2_T3_1",
-				"v1s1_T6_PAT2_T4_1"
+		        "v1s1_T6_KSS2"
 		    ],
 		    "Visit 1 Shift 2 Trial 1 (20:15 PM)":[
-				"v1s2_T0_PAT3",
 			    "v1s2_T1_KSS1",
 		        "v1s2_T1_KSS2"
 		    ],
@@ -466,15 +460,9 @@
 		    ],
 		    "Visit 1 Shift 2 Trial 6 (05:30 AM)":[
 				"v1s2_T6_KSS1",
-		        "v1s2_T6_KSS2",
-				"v1s2_T6_PAT1",
-				"v1s2_T6_PAT2_T1_2",
-				"v1s2_T6_PAT2_T2_2",
-				"v1s2_T6_PAT2_T3_2",
-				"v1s2_T6_PAT2_T4_2"
+		        "v1s2_T6_KSS2"
 		    ],
 		    "Visit 1 Shift 3 Trial 1 (20:15 PM)":[
-				"v1s3_T0_PAT3",
 				"v1s3_T1_KSS1",
 		        "v1s3_T1_KSS2"
 		    ],
