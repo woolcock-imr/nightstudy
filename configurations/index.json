@@ -2,7 +2,7 @@
 	"api_path_development":"https://cbs.wappsystem.com/dev/",
 	"api_path_production":"https://rt.woolcock.org.au/",
 	"default_production":"Yes",
-	"module_groups":["main.json","task.json"],
-	"parameters":{
+	"panels":{
+		"panel_main":{"url":"/modules/panel/main.html","modules":["main.json","task.json"]}
 	}
 }

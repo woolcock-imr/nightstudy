@@ -75,7 +75,7 @@ VmInclude:/modules/layout/footer.html
 		//------------------------------------
 		var load_home_module=function(){
 			var a=window.location.href.split('module=');
-			if(a.length!=2)	$vm.nav_load_module('main_home');
+			if(a.length!=2)	$vm.nav_load_module('panel_main_home');
 			else{
 				var name=a[1].split('&')[0];
 				if(name.length>0){
@@ -89,71 +89,80 @@ VmInclude:/modules/layout/footer.html
 		}
 		//********************************************************
 		var N=0;
-		//********************************************************
-		var add_config=function(text,group_name){
+		//------------------------------------
+		var add_config_modules_to_module_list_and_start=function(url,text,prefix){
 			var config;
 			try{ config=JSON.parse(text);}
 			catch (e){ alert("Error in config file\n"+e); return; }
-			//--------------------------
-			if(config.group_name!=undefined) group_name=config.group_name;
-			//add modules to module list and some processing
 			var modules=config.modules;
 			for (var property in modules) {
-			   	if($vm.module_list[group_name+"_"+property]==undefined){
-				   	$vm.module_list[group_name+"_"+property]=modules[property];
-					$vm.module_list[group_name+"_"+property].group_name=group_name;
-					var nm=$vm.module_list[group_name+"_"+property]['name_for_search'];
+			   	if($vm.module_list[prefix+"_"+property]==undefined){
+				   	$vm.module_list[prefix+"_"+property]=modules[property];
+					if($vm.module_list[prefix+"_"+property].prefix!=undefined) $vm.module_list[prefix+"_"+property].prefix=prefix+"_"+$vm.module_list[prefix+"_"+property].prefix;
+                    else $vm.module_list[prefix+"_"+property].prefix=prefix;
+					var nm=$vm.module_list[prefix+"_"+property]['name_for_search'];
 					if(nm!=""){
 						if(nm==undefined) nm=property;
-						website_item_list_for_search.push({label:nm,value:group_name+"_"+property})
+						website_item_list_for_search.push({label:nm,value:prefix+"_"+property})
+					}
+					var m_url=$vm.module_list[prefix+"_"+property].url;
+					if(m_url!=undefined && m_url[0]=='/'){
+						$vm.module_list[prefix+"_"+property].url=url.split('/configurations/')[0]+m_url;
+					}
+					else if(m_url!=undefined && m_url.substring(0,8)=='modules/'){
+						$vm.module_list[prefix+"_"+property].url=url.split('configurations/')[0]+m_url;
 					}
 			   	}
 			}
-			//--------------------------
-			//add others to config
-			for (var property in config){
-				if(property!="modules" && property!="group"){
-					$vm.app_config[property]=config[property];
-				}
-			}
-			//--------------------------
 			N--;
+            console.log("Number of module json setup file:"+N);
 			if(N==0){
-				set_module_search();
+				//set_module_search();
+				$vm.search_list=1;
+                console.log("call load_home_module");
 				load_home_module();
+				console.log("Total number of module: "+Object.keys($vm.module_list).length);
 			}
 		}
 		//------------------------------------
-		var process_config_file=function(url,group){
+		var process_config_file=function(url,prefix){
 			console.log('loading '+url+'?_='+$vm.ver[1]+$vm.reload);
 			$.get(url+'?_='+$vm.ver[1]+$vm.reload,function(data){
 				localStorage.setItem(url+"_txt",data);
 				localStorage.setItem(url+"_ver",$vm.ver[1]);
-				add_config(data,group);
+                console.log("processing "+prefix)
+				add_config_modules_to_module_list_and_start(url,data,prefix);
 			},'text').fail(function() {
 				alert( "The configuration file ("+url+") doesn't exist!" );
 			});
 		}
 		//------------------------------------
-		var groups=$vm.app_config.module_groups;
-		if(groups!=undefined && groups.length>0){
-			N=groups.length;
-			//------------------------------------
-			for(var i=0;i<groups.length;i++){
-				var url=$vm.hosting_path+"/configurations/"+groups[i];
+		//read all module's info from json files
+		var panels=$vm.app_config.panels;
+		for (var property in panels){
+			var json_files=panels[property].modules;
+			N=N+json_files.length;
+		}
+		for (var property in panels){
+			$vm.module_list[property]={"url":panels[property].url}
+			var prefix=property;
+			var json_files=panels[property].modules;
+			for(var i=0;i<json_files.length;i++){
+				var url=$vm.url(json_files[i]);
+				if(json_files[i].indexOf('https://')==-1) url=$vm.hosting_path+"/configurations/"+url;
 				var ver=localStorage.getItem(url+"_ver");
 				var txt=localStorage.getItem(url+"_txt");
 				if(ver!=$vm.ver[1] || txt===null || $vm.debug===true || $vm.reload!=''){
-					process_config_file(url,groups[i].replace('.json',''));
+                    console.log("processing "+json_files[i])
+					process_config_file(url,prefix);
 				}
-				else{ add_config(txt,groups[i].replace('.json','')); }
+				else{
+                    console.log("processing "+json_files[i])
+                    add_config_modules_to_module_list_and_start(url,txt,prefix);
+                }
 			}
-			//------------------------------------
 		}
-		else{
-            alert("No module group in the system!")
-		}
-		//------------------------------------
+		//********************************************************
 	}
 </script>
 <style main-layout-css>

@@ -1,5 +1,4 @@
 {
-	"group_name":"main",
 	"modules":
 	{
 		"Adverse_Event_Adverse":    {"table_id":"20010475","url":"modules/dynamic/task/Adverse_Event.html","notes":" Adverse Event_Adverse"},
@@ -403,176 +402,178 @@
 		"v2s6_T7_KSS1_QUEST":   {"table_id":"20010660","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"v2s6_T7_PVT":     {"table_id":"20010661","url":"modules/dynamic/task/PVT.html","notes":"PVT","task":"PVT"},
 		"v2s6_T7_KSS2":         {"table_id":"20010662","url":"modules/dynamic/task/kss.html","notes":"KSS after PVT","redundant_form_module":"v2s6_T7_KSS2_QUEST", "task": "KSS after PVT" },
-		"v2s6_T7_KSS2_QUEST":   {"table_id":"20010662","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"}
-		},
+		"v2s6_T7_KSS2_QUEST":   {"table_id":"20010662","url":"modules/dynamic/task/karolinska_sleepiness_scale.form.html"},
 		"quest_list":{
-		    "Visit 1 Shift 1 Trial 1 (20:15 PM)":[
-		        "v1s1_T1_KSS1",
-		        "v1s1_T1_KSS2"
-		    ],
-		    "Visit 1 Shift 1 Trial 2 (22:00 PM)":[
-		        "v1s1_T2_KSS1",
-		        "v1s1_T2_KSS2"
-		    ],
-		    "Visit 1 Shift 1 Trial 3 (24:00 PM)":[
-		        "v1s1_T3_KSS1",
-		        "v1s1_T3_KSS2"
-		    ],
-		    "Visit 1 Shift 1 Trial 4 (02:00 AM)":[
-		        "v1s1_T4_KSS1",
-		        "v1s1_T4_KSS2",
-		        "v1s1_T4_TOL"
-		    ],
-		    "Visit 1 Shift 1 Trial 5 (04:00 AM)":[
-		        "v1s1_T5_KSS1",
-		        "v1s1_T5_KSS2",
-		        "v1s1_T5_Stroop_colour",
-		        "v1s1_T5_Stroop_text",
-		        "v1s1_T5_2_back"
-		    ],
-		    "Visit 1 Shift 1 Trial 6 (05:30 AM)":[
-		        "v1s1_T6_KSS1",
-		        "v1s1_T6_KSS2"
-		    ],
-		    "Visit 1 Shift 2 Trial 1 (20:15 PM)":[
-			    "v1s2_T1_KSS1",
-		        "v1s2_T1_KSS2"
-		    ],
-		    "Visit 1 Shift 2 Trial 2 (22:00 PM)":[
-		        "v1s2_T2_KSS1",
-		        "v1s2_T2_KSS2"
-		    ],
-		    "Visit 1 Shift 2 Trial 3 (24:00 PM)":[
-		        "v1s2_T3_KSS1",
-		        "v1s2_T3_KSS2"
-		    ],
-		    "Visit 1 Shift 2 Trial 4 (02:00 AM)":[
-		        "v1s2_T4_KSS1",
-		        "v1s2_T4_KSS2",
-		        "v1s2_T4_TOL"
-		    ],
-		    "Visit 1 Shift 2 Trial 5 (04:00 AM)":[
-		        "v1s2_T5_KSS1",
-		        "v1s2_T5_KSS2",
-		        "v1s2_T5_Stroop_colour",
-		        "v1s2_T5_Stroop_text",
-		        "v1s2_T5_2_back"
-		    ],
-		    "Visit 1 Shift 2 Trial 6 (05:30 AM)":[
-				"v1s2_T6_KSS1",
-		        "v1s2_T6_KSS2"
-		    ],
-		    "Visit 1 Shift 3 Trial 1 (20:15 PM)":[
-				"v1s3_T1_KSS1",
-		        "v1s3_T1_KSS2"
-		    ],
-		    "Visit 1 Shift 3 Trial 2 (22:00 PM)":[
-		        "v1s3_T2_KSS1",
-		        "v1s3_T2_KSS2"
-		    ],
-		    "Visit 1 Shift 3 Trial 3 (24:00 PM)":[
-		        "v1s3_T3_KSS1",
-		        "v1s3_T3_KSS2"
-		    ],
-		    "Visit 1 Shift 3 Trial 4 (02:00 AM)":[
-		        "v1s3_T4_KSS1",
-		        "v1s3_T4_KSS2",
-		        "v1s3_T4_TOL"
-		    ],
-		    "Visit 1 Shift 3 Trial 5 (04:00 AM)":[
-		        "v1s3_T5_KSS1",
-		        "v1s3_T5_KSS2",
-		        "v1s3_T5_Stroop_colour",
-		        "v1s3_T5_Stroop_text",
-		        "v1s3_T5_2_back"
-		    ],
-		    "Visit 1 Shift 3 Trial 6 (05:30 AM)":[
-		        "v1s3_T6_KSS1",
-		        "v1s3_T6_KSS2"
-		    ],
-		    "Visit 2 Shift 4 Trial 1 (20:15 PM)":[
-		        "v2s4_T1_KSS1",
-		        "v2s4_T1_KSS2"
-		    ],
-		    "Visit 2 Shift 4 Trial 2 (22:00 PM)":[
-		        "v2s4_T2_KSS1",
-		        "v2s4_T2_KSS2"
-		    ],
-		    "Visit 2 Shift 4 Trial 3 (24:00 PM)":[
-		        "v2s4_T3_KSS1",
-		        "v2s4_T3_KSS2"
-		    ],
-		    "Visit 2 Shift 4 Trial 4 (02:00 AM)":[
-		        "v2s4_T4_KSS1",
-		        "v2s4_T4_KSS2",
-		        "v2s4_T4_TOL"
-		    ],
-		    "Visit 2 Shift 4 Trial 5 (04:00 AM)":[
-		        "v2s4_T5_KSS1",
-		        "v2s4_T5_KSS2",
-		        "v2s4_T5_Stroop_colour",
-		        "v2s4_T5_Stroop_text",
-		        "v2s4_T5_2_back"
-		    ],
-		    "Visit 2 Shift 4 Trial 6 (05:30 AM)":[
-		        "v2s4_T6_KSS1",
-		        "v2s4_T6_KSS2"
-		    ],
-		    "Visit 2 Shift 5 Trial 1 (20:15 PM)":[
-		        "v2s5_T1_KSS1",
-		        "v2s5_T1_KSS2"
-		    ],
-		    "Visit 2 Shift 5 Trial 2 (22:00 PM)":[
-		        "v2s5_T2_KSS1",
-		        "v2s5_T2_KSS2"
-		    ],
-		    "Visit 2 Shift 5 Trial 3 (24:00 PM)":[
-		        "v2s5_T3_KSS1",
-		        "v2s5_T3_KSS2"
-		    ],
-		    "Visit 2 Shift 5 Trial 4 (02:00 AM)":[
-		        "v2s5_T4_KSS1",
-		        "v2s5_T4_KSS2",
-		        "v2s5_T4_TOL"
-		    ],
-		    "Visit 2 Shift 5 Trial 5 (04:00 AM)":[
-		        "v2s5_T5_KSS1",
-		        "v2s5_T5_KSS2",
-		        "v2s5_T5_Stroop_colour",
-		        "v2s5_T5_Stroop_text",
-		        "v2s5_T5_2_back"
-		    ],
-		    "Visit 2 Shift 5 Trial 6 (05:30 AM)":[
-		        "v2s5_T6_KSS1",
-		        "v2s5_T6_KSS2"
-		    ],
-		    "Visit 2 Shift 6 Trial 1 (20:15 PM)":[
-		        "v2s6_T1_KSS1",
-		        "v2s6_T1_KSS2"
-		    ],
-		    "Visit 2 Shift 6 Trial 2 (22:00 PM)":[
-		        "v2s6_T2_KSS1",
-		        "v2s6_T2_KSS2"
-		    ],
-		    "Visit 2 Shift 6 Trial 3 (24:00 PM)":[
-		        "v2s6_T3_KSS1",
-		        "v2s6_T3_KSS2"
-		    ],
-		    "Visit 2 Shift 6 Trial 4 (02:00 AM)":[
-		        "v2s6_T4_KSS1",
-		        "v2s6_T4_KSS2",
-		        "v2s6_T4_TOL"
-		    ],
-		    "Visit 2 Shift 6 Trial 5 (04:00 AM)":[
-		        "v2s6_T5_KSS1",
-		        "v2s6_T5_KSS2",
-		        "v2s6_T5_Stroop_colour",
-		        "v2s6_T5_Stroop_text",
-		        "v2s6_T5_2_back"
-		    ],
-		    "Visit 2 Shift 6 Trial 6 (05:30 AM)":[
-		        "v2s6_T6_KSS1",
-		        "v2s6_T6_KSS2"
-		    ]
+			"list":{
+			    "Visit 1 Shift 1 Trial 1 (20:15 PM)":[
+			        "v1s1_T1_KSS1",
+			        "v1s1_T1_KSS2"
+			    ],
+			    "Visit 1 Shift 1 Trial 2 (22:00 PM)":[
+			        "v1s1_T2_KSS1",
+			        "v1s1_T2_KSS2"
+			    ],
+			    "Visit 1 Shift 1 Trial 3 (24:00 PM)":[
+			        "v1s1_T3_KSS1",
+			        "v1s1_T3_KSS2"
+			    ],
+			    "Visit 1 Shift 1 Trial 4 (02:00 AM)":[
+			        "v1s1_T4_KSS1",
+			        "v1s1_T4_KSS2",
+			        "v1s1_T4_TOL"
+			    ],
+			    "Visit 1 Shift 1 Trial 5 (04:00 AM)":[
+			        "v1s1_T5_KSS1",
+			        "v1s1_T5_KSS2",
+			        "v1s1_T5_Stroop_colour",
+			        "v1s1_T5_Stroop_text",
+			        "v1s1_T5_2_back"
+			    ],
+			    "Visit 1 Shift 1 Trial 6 (05:30 AM)":[
+			        "v1s1_T6_KSS1",
+			        "v1s1_T6_KSS2"
+			    ],
+			    "Visit 1 Shift 2 Trial 1 (20:15 PM)":[
+				    "v1s2_T1_KSS1",
+			        "v1s2_T1_KSS2"
+			    ],
+			    "Visit 1 Shift 2 Trial 2 (22:00 PM)":[
+			        "v1s2_T2_KSS1",
+			        "v1s2_T2_KSS2"
+			    ],
+			    "Visit 1 Shift 2 Trial 3 (24:00 PM)":[
+			        "v1s2_T3_KSS1",
+			        "v1s2_T3_KSS2"
+			    ],
+			    "Visit 1 Shift 2 Trial 4 (02:00 AM)":[
+			        "v1s2_T4_KSS1",
+			        "v1s2_T4_KSS2",
+			        "v1s2_T4_TOL"
+			    ],
+			    "Visit 1 Shift 2 Trial 5 (04:00 AM)":[
+			        "v1s2_T5_KSS1",
+			        "v1s2_T5_KSS2",
+			        "v1s2_T5_Stroop_colour",
+			        "v1s2_T5_Stroop_text",
+			        "v1s2_T5_2_back"
+			    ],
+			    "Visit 1 Shift 2 Trial 6 (05:30 AM)":[
+					"v1s2_T6_KSS1",
+			        "v1s2_T6_KSS2"
+			    ],
+			    "Visit 1 Shift 3 Trial 1 (20:15 PM)":[
+					"v1s3_T1_KSS1",
+			        "v1s3_T1_KSS2"
+			    ],
+			    "Visit 1 Shift 3 Trial 2 (22:00 PM)":[
+			        "v1s3_T2_KSS1",
+			        "v1s3_T2_KSS2"
+			    ],
+			    "Visit 1 Shift 3 Trial 3 (24:00 PM)":[
+			        "v1s3_T3_KSS1",
+			        "v1s3_T3_KSS2"
+			    ],
+			    "Visit 1 Shift 3 Trial 4 (02:00 AM)":[
+			        "v1s3_T4_KSS1",
+			        "v1s3_T4_KSS2",
+			        "v1s3_T4_TOL"
+			    ],
+			    "Visit 1 Shift 3 Trial 5 (04:00 AM)":[
+			        "v1s3_T5_KSS1",
+			        "v1s3_T5_KSS2",
+			        "v1s3_T5_Stroop_colour",
+			        "v1s3_T5_Stroop_text",
+			        "v1s3_T5_2_back"
+			    ],
+			    "Visit 1 Shift 3 Trial 6 (05:30 AM)":[
+			        "v1s3_T6_KSS1",
+			        "v1s3_T6_KSS2"
+			    ],
+			    "Visit 2 Shift 4 Trial 1 (20:15 PM)":[
+			        "v2s4_T1_KSS1",
+			        "v2s4_T1_KSS2"
+			    ],
+			    "Visit 2 Shift 4 Trial 2 (22:00 PM)":[
+			        "v2s4_T2_KSS1",
+			        "v2s4_T2_KSS2"
+			    ],
+			    "Visit 2 Shift 4 Trial 3 (24:00 PM)":[
+			        "v2s4_T3_KSS1",
+			        "v2s4_T3_KSS2"
+			    ],
+			    "Visit 2 Shift 4 Trial 4 (02:00 AM)":[
+			        "v2s4_T4_KSS1",
+			        "v2s4_T4_KSS2",
+			        "v2s4_T4_TOL"
+			    ],
+			    "Visit 2 Shift 4 Trial 5 (04:00 AM)":[
+			        "v2s4_T5_KSS1",
+			        "v2s4_T5_KSS2",
+			        "v2s4_T5_Stroop_colour",
+			        "v2s4_T5_Stroop_text",
+			        "v2s4_T5_2_back"
+			    ],
+			    "Visit 2 Shift 4 Trial 6 (05:30 AM)":[
+			        "v2s4_T6_KSS1",
+			        "v2s4_T6_KSS2"
+			    ],
+			    "Visit 2 Shift 5 Trial 1 (20:15 PM)":[
+			        "v2s5_T1_KSS1",
+			        "v2s5_T1_KSS2"
+			    ],
+			    "Visit 2 Shift 5 Trial 2 (22:00 PM)":[
+			        "v2s5_T2_KSS1",
+			        "v2s5_T2_KSS2"
+			    ],
+			    "Visit 2 Shift 5 Trial 3 (24:00 PM)":[
+			        "v2s5_T3_KSS1",
+			        "v2s5_T3_KSS2"
+			    ],
+			    "Visit 2 Shift 5 Trial 4 (02:00 AM)":[
+			        "v2s5_T4_KSS1",
+			        "v2s5_T4_KSS2",
+			        "v2s5_T4_TOL"
+			    ],
+			    "Visit 2 Shift 5 Trial 5 (04:00 AM)":[
+			        "v2s5_T5_KSS1",
+			        "v2s5_T5_KSS2",
+			        "v2s5_T5_Stroop_colour",
+			        "v2s5_T5_Stroop_text",
+			        "v2s5_T5_2_back"
+			    ],
+			    "Visit 2 Shift 5 Trial 6 (05:30 AM)":[
+			        "v2s5_T6_KSS1",
+			        "v2s5_T6_KSS2"
+			    ],
+			    "Visit 2 Shift 6 Trial 1 (20:15 PM)":[
+			        "v2s6_T1_KSS1",
+			        "v2s6_T1_KSS2"
+			    ],
+			    "Visit 2 Shift 6 Trial 2 (22:00 PM)":[
+			        "v2s6_T2_KSS1",
+			        "v2s6_T2_KSS2"
+			    ],
+			    "Visit 2 Shift 6 Trial 3 (24:00 PM)":[
+			        "v2s6_T3_KSS1",
+			        "v2s6_T3_KSS2"
+			    ],
+			    "Visit 2 Shift 6 Trial 4 (02:00 AM)":[
+			        "v2s6_T4_KSS1",
+			        "v2s6_T4_KSS2",
+			        "v2s6_T4_TOL"
+			    ],
+			    "Visit 2 Shift 6 Trial 5 (04:00 AM)":[
+			        "v2s6_T5_KSS1",
+			        "v2s6_T5_KSS2",
+			        "v2s6_T5_Stroop_colour",
+			        "v2s6_T5_Stroop_text",
+			        "v2s6_T5_2_back"
+			    ],
+			    "Visit 2 Shift 6 Trial 6 (05:30 AM)":[
+			        "v2s6_T6_KSS1",
+			        "v2s6_T6_KSS2"
+			    ]
+			}
 		}
+	}
 }

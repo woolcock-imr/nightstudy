@@ -19,54 +19,21 @@
 <script>
     function F__ID(){
         //---------------------------------------------
-        //Vm Include:__COMPONENT__/toolbar/back.js
-        //---------------------------------------------
-		var group_name=$vm.app_config.participant_group_name;
-		if(group_name==undefined){
-			alert("$vm.app_config.participant_group_name if undefined");
-		}
+		var prefix=$vm.module_list[$vm.vm['__ID'].name].prefix; if(prefix==undefined) prefix="";
 		//-------------------------------------
 		var setup_pid=$vm.module_list[$vm.vm['__ID'].name].table_id;
-        //var mid="-1",uid="-1";
-        //var participant='';
-
 		var record;
 		var q_list;
         //---------------------------------------------
         $('#name__ID').text('Participant Login Setup');
         //---------------------------------------------
         $('#D__ID').on('load',function(){
-			/*
-			var url=$vm.hosting_path+"/configurations/task.json";
-			var ver=localStorage.getItem(url+"_ver");
-			var txt=localStorage.getItem(url+"_txt");
-			//------------------------------------------
-			if(ver!=$vm.ver[1] || txt===null || $vm.debug===true || $vm.reload!=''){
-				console.log('loading '+url+'?_='+$vm.ver[1]+$vm.reload);
-				$.get(url+'?_='+$vm.ver[1]+$vm.reload,function(txt){
-					localStorage.setItem(url+"_txt",txt);
-					localStorage.setItem(url+"_ver",$vm.ver[1]);
-					setup(txt);;
-				},'text').fail(function() {
-					alert( "The configuration file ("+url+") doesn't exist!" );
-				});
-			}
-			else{ setup(txt); }
-			//------------------------------------------
-			*/
 			setup();
 		})
 		//---------------------------------------------
 		var setup=function(txt){
-			/*
-			var text=$('<div/>').html(txt).text();
-			//---------------------------
-			var config;
-			try{ config=JSON.parse(text);}
-			catch (e){ alert("Error in app config file\n"+e); return; }
-			//--------------------------------------------------------
-			*/
-			q_list=$vm.app_config.quest_list;
+			//q_list=$vm.app_config.quest_list;
+			q_list=$vm.module_list[prefix+"_"+"quest_list"].list;
 			record=$vm.vm['__ID'].op.record;
             $('#Login_ID__ID').val(record.UID+"-"+setup_pid);
             $('#Participant__ID').val(record.Study_ID);
@@ -87,20 +54,6 @@
                     $('#List__ID').val('');
                     $('#Password__ID').val($vm.vm_password(8,false));
                 }
-				/*
-                if(participant!=undefined){
-                    $('#Participant__ID').val(participant);
-                    set_check_list();
-                }
-                else{
-                    sql="select participant="+_module.var.sql_participant+" from [TABLE-"+_module.var.participant_tid+"] where UID=@I1";
-                    req={cmd:'query_records',sql:sql,i1:uid}
-                    $VmAPI.request({data:req,callback:function(res2){
-                        $('#Participant__ID').val(res2.records[0].participant);
-                        set_check_list();
-                    }})
-                }
-				*/
 				set_check_list();
             }})
         }
@@ -118,12 +71,14 @@
                 var sublist=q_list[visit];
                 for(i in sublist){
                     No++;
-                    if($vm.module_list[group_name+"_"+sublist[i]]!==undefined){
-                        pid=$vm.module_list[group_name+"_"+sublist[i]].table_id;
-                        task=$vm.module_list[group_name+"_"+sublist[i]].task;
+                    if($vm.module_list[prefix+"_"+sublist[i]]!==undefined){
+                        pid=$vm.module_list[prefix+"_"+sublist[i]].table_id;
+                        task=$vm.module_list[prefix+"_"+sublist[i]].task;
                 	    txt+="<tr><td>"+No+"</td><td>"+pid+"</td><td>"+tab+dot+task+"</td><td><input id=task"+pid+" type=checkbox /></td></tr>";
                     }
-                    else alert(group_name+"_"+sublist[i] +' is not in the module list.')
+                    else{
+						alert(prefix+"_"+sublist[i] +' is not in the module list.')
+					}
                 }
             }
             $('#table_grid__ID').html(txt);
@@ -135,13 +90,13 @@
                 var sublistA=q_list[data_visit];
                 if( $(this).prop('checked')==true){
                     for(k in sublistA){
-                        var pid=$vm.module_list[group_name+"_"+sublistA[k]].table_id;
+                        var pid=$vm.module_list[prefix+"_"+sublistA[k]].table_id;
                         $("#task"+pid).prop('checked',true);
                     }
                 }
                 else{
                     for(k in sublistA){
-                        var pid=$vm.module_list[group_name+"_"+sublistA[k]].table_id;
+                        var pid=$vm.module_list[prefix+"_"+sublistA[k]].table_id;
 						$("#task"+pid).prop('checked',false);
                     }
                 }

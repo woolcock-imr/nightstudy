@@ -3,7 +3,7 @@
 		<span>Participants</span>
 		<ul>
 			<li module=participant>Participants</li>
-			<li module=telephone-screening>Telephone screening</li>
+			<!--<li module=telephone-screening>Telephone screening</li>-->
 		</ul>
 		<span>Notes</span>
 		<ul>
@@ -17,15 +17,16 @@
 <script>
       function F__ID(){
 		  //--------------------------------------------------------
-		  var group="main_";
+		  var prefix=$vm.vm["__ID"].name+"_";
 		  $('#panel__ID li').on('click',function(){
 			  var m=$(this).attr('module');
               if(m!=undefined){
-				  if($vm.module_list[group+m]==undefined){
-					  alert(group+m +" is not in the module list. check the panel 'main' and main.json");
+				  if($vm.module_list[prefix+m]==undefined){
+					  alert(prefix+m +" is not in the module list.");
 					  return;
 				  }
-			      $vm.nav_load_module(group+m);
+                  $vm.module_list[prefix+m].alert='1';
+			      $vm.nav_load_module(prefix+m);
               }
 		  })
 		  //--------------------------------------------------------

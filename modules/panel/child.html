@@ -13,19 +13,16 @@
 			$('#info__ID').text(info);
 		})
 		//--------------------------------------------------------
-		var group_name=$vm.app_config.participant_group_name;
-		if(group_name==undefined){
-			alert("$vm.app_config.participant_group_name if undefined");
-		}
+		var prefix=$vm.module_list[$vm.vm['__ID'].name].prefix; if(prefix==undefined) prefix="";
 		//-------------------------------------
 		$('#page__ID li').on('click',function(){
 			var m=$(this).attr('module');
 			if(m!=undefined){
-				if($vm.module_list[group_name+"_"+m]==undefined){
-					alert(group_name+"_"+m +" is not in the module list.");
+				if($vm.module_list[prefix+"_"+m]==undefined){
+					alert(prefix+"_"+m +" is not in the module list.");
 					return;
 				}
-				$vm.load_module_by_name(group_name+"_"+m,$vm.root_layout_content_slot,{participant_uid:record.UID,participant_name:record.Study_ID})
+				$vm.load_module_by_name(prefix+"_"+m,$vm.root_layout_content_slot,{participant_uid:record.UID,participant_name:record.Study_ID})
 			}
 		})
 		//--------------------------------------------------------
