@@ -145,6 +145,7 @@
             {src:'__HOST__/images/Set1/Recognition/Recog_131a.jpg',time:7000},
             {src:'__HOST__/images/Set1/Recognition/Recog_132a.jpg',time:7000},*/
                 ]
+				if($vm.panel_nightstudy==1){for(var i=0;i<img_array.length;i++) img_array[i].src=img_array[i].src.replace('__HOST__','https://nightstudy.rt.org.au')}
 
 
       //----------------------------------
@@ -210,12 +211,13 @@
         }
     }
   }
+  if($vm.panel_nightstudy==1){for(var i=0;i<img_array.length;i++) img_array[i].src=img_array[i].src.replace('__HOST__/','https://nightstudy.rt.org.au/')}
 }
 
 </script>
 <style>
     VmInclude:__PARTS__/style/default.css
-    
+
     #img__ID {
     height:1000px!important;
     }
