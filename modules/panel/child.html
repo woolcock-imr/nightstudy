@@ -18,11 +18,11 @@
 		$('#page__ID li').on('click',function(){
 			var m=$(this).attr('module');
 			if(m!=undefined){
-				if($vm.module_list[prefix+"_"+m]==undefined){
-					alert(prefix+"_"+m +" is not in the module list.");
+				if($vm.module_list[prefix+m]==undefined){
+					alert(prefix+m +" is not in the module list.");
 					return;
 				}
-				$vm.load_module_by_name(prefix+"_"+m,$vm.root_layout_content_slot,{participant_uid:record.UID,participant_name:record.Study_ID})
+				$vm.load_module_by_name(prefix+m,$vm.root_layout_content_slot,{participant_uid:record.UID,participant_name:record.Study_ID})
 			}
 		})
 		//--------------------------------------------------------

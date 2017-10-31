@@ -1,9 +1,9 @@
 //-------------------------------------
 var prefix=$vm.module_list[$vm.vm['__ID'].name].prefix; if(prefix==undefined) prefix="";
 //-------------------------------------
-var participant_pid=_mlist[prefix+"_"+'participant'].table_id;
-var notes_pid=_mlist[prefix+"_"+'clinical_trials_notes'].table_id;
-var site_filter_pid=_mlist[prefix+"_"+'site_filter'].table_id;
+var participant_pid=_mlist[prefix+'participant'].table_id;
+var notes_pid=_mlist[prefix+'clinical_trials_notes'].table_id;
+var site_filter_pid=_mlist[prefix+'site_filter'].table_id;
 var sql_participant="S2";
 //-------------------------------------
 _record_type="s2";
@@ -101,7 +101,7 @@ var _default_cell_render=function(records,I,field,td,set_value,source){
             td.html("<u style='cursor:pointer;color:"+color+"'>"+value+"</u>");
             td.find('u').on('click',function(){
                 var visit_task=$vm.module_list[$vm.vm['__ID'].name].notes;
-                $vm.load_module_by_name(prefix+"_"+'clinical_trials_notes',$vm.root_layout_content_slot,{
+                $vm.load_module_by_name(prefix+'clinical_trials_notes',$vm.root_layout_content_slot,{
                     task_record_uid:_records[I].UID,
                     task_record_pid:_db_pid,
                     //task_name:task_name,

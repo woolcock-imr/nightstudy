@@ -4,10 +4,7 @@
 		<title>Nightstudy</title>
 		<meta charset="utf-8">
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/redmond/jquery-ui.css">
 		<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.2.1.min.js"></script>
-		<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
 		<script>
 			$(document).ready(function(){
 				$.get('version.html?_='+new Date().getTime().toString(),function(v){ console.log(v); $vm={}; $vm.ver=v.trim().split(','); $.getScript('index.js?_sv='+$vm.ver[2], function(){ vm_init();});},'text')

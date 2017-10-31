@@ -11,7 +11,7 @@
         //-------------------------------------
 		var prefix=_mlist[$vm.vm['__ID'].name].prefix;
 		//-------------------------------------
-		login_setup_tid=_mlist[prefix+"_"+'participant_login_setup'].table_id;
+		login_setup_tid=_mlist[prefix+'participant_login_setup'].table_id;
 		//-------------------------------------
         $('#D__ID').on('load',function(){  _set_req(); _request_data();  })
         $('#D__ID').on('show',function(){  _set_req(); _request_data();  })
@@ -33,7 +33,7 @@
                     if(_records[I].UID===undefined) return;
                     td.html("<u style='cursor:pointer'>Data Entry</u>");
                     td.find('u').on('click',function(){
-                        $vm.load_module_by_name(prefix+"_"+'child_panel',$vm.root_layout_content_slot,{
+                        $vm.load_module_by_name(prefix+'child_panel',$vm.root_layout_content_slot,{
 							record:records[I]
                             //rid:_records[I].ID,participant_uid:_records[I].UID,
                             //participant_name:_records[I].Study_ID,
@@ -45,7 +45,7 @@
                     if(_records[I].UID===undefined) return;
                     td.html("<u style='cursor:pointer'>Setup</u>");
                     td.find('u').on('click',function(){
-                        $vm.load_module_by_name(prefix+"_"+'participant_login_setup',$vm.root_layout_content_slot,{record:_records[I]});
+                        $vm.load_module_by_name(prefix+'participant_login_setup',$vm.root_layout_content_slot,{record:_records[I]});
                     });
                     break;
                 case '_Quest':

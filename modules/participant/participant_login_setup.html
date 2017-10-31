@@ -33,7 +33,7 @@
 		//---------------------------------------------
 		var setup=function(txt){
 			//q_list=$vm.app_config.quest_list;
-			q_list=$vm.module_list[prefix+"_"+"quest_list"].list;
+			q_list=$vm.module_list[prefix+"quest_list"].list;
 			record=$vm.vm['__ID'].op.record;
             $('#Login_ID__ID').val(record.UID+"-"+setup_pid);
             $('#Participant__ID').val(record.Study_ID);
@@ -71,13 +71,13 @@
                 var sublist=q_list[visit];
                 for(i in sublist){
                     No++;
-                    if($vm.module_list[prefix+"_"+sublist[i]]!==undefined){
-                        pid=$vm.module_list[prefix+"_"+sublist[i]].table_id;
-                        task=$vm.module_list[prefix+"_"+sublist[i]].task;
+                    if($vm.module_list[prefix+sublist[i]]!==undefined){
+                        pid=$vm.module_list[prefix+sublist[i]].table_id;
+                        task=$vm.module_list[prefix+sublist[i]].task;
                 	    txt+="<tr><td>"+No+"</td><td>"+pid+"</td><td>"+tab+dot+task+"</td><td><input id=task"+pid+" type=checkbox /></td></tr>";
                     }
                     else{
-						alert(prefix+"_"+sublist[i] +' is not in the module list.')
+						alert(prefix+sublist[i] +' is not in the module list.')
 					}
                 }
             }
@@ -90,13 +90,13 @@
                 var sublistA=q_list[data_visit];
                 if( $(this).prop('checked')==true){
                     for(k in sublistA){
-                        var pid=$vm.module_list[prefix+"_"+sublistA[k]].table_id;
+                        var pid=$vm.module_list[prefix+sublistA[k]].table_id;
                         $("#task"+pid).prop('checked',true);
                     }
                 }
                 else{
                     for(k in sublistA){
-                        var pid=$vm.module_list[prefix+"_"+sublistA[k]].table_id;
+                        var pid=$vm.module_list[prefix+sublistA[k]].table_id;
 						$("#task"+pid).prop('checked',false);
                     }
                 }
