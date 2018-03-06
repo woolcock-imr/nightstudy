@@ -42,12 +42,12 @@
 		"At_Home_Testing_Actigraphy_1":      {"table_id":"20010484","url":"modules/task/At_Home_Testing_Actigraphy.html","notes":"At Home Testing Actigraphy Week 1"},
 		"At_Home_Testing_Actigraphy_2":      {"table_id":"20010486","url":"modules/task/At_Home_Testing_Actigraphy.html","notes":"At Home Testing Actigraphy Week 2"},
 
-		"v1s1_T6_Aused":        {"table_id":"20010611","url":"modules/task/Aused_30m.html","notes":"AusEd Shift 1"},
-		"v1s2_T6_Aused":        {"table_id":"20010685","url":"modules/task/Aused_30m.html","notes":"AusEd Shift 2"},
-		"v1s3_T6_Aused":        {"table_id":"20010686","url":"modules/task/Aused_30m.html","notes":"AusEd Shift 3"},
-		"v2s4_T6_Aused":        {"table_id":"20010612","url":"modules/task/Aused_30m.html","notes":"AusEd Shift 4"},
-		"v2s5_T6_Aused":        {"table_id":"20010687","url":"modules/task/Aused_30m.html","notes":"AusEd Shift 5"},
-		"v2s6_T6_Aused":        {"table_id":"20010688","url":"modules/task/Aused_30m.html","notes":"AusEd Shift 6"},
+		"v1s1_T6_Aused":        {"table_id":"20010611","url":"modules/task/aused_30m.html","notes":"AusEd Shift 1"},
+		"v1s2_T6_Aused":        {"table_id":"20010685","url":"modules/task/aused_30m.html","notes":"AusEd Shift 2"},
+		"v1s3_T6_Aused":        {"table_id":"20010686","url":"modules/task/aused_30m.html","notes":"AusEd Shift 3"},
+		"v2s4_T6_Aused":        {"table_id":"20010612","url":"modules/task/aused_30m.html","notes":"AusEd Shift 4"},
+		"v2s5_T6_Aused":        {"table_id":"20010687","url":"modules/task/aused_30m.html","notes":"AusEd Shift 5"},
+		"v2s6_T6_Aused":        {"table_id":"20010688","url":"modules/task/aused_30m.html","notes":"AusEd Shift 6"},
 
 		  "v1s1_T5_Balance":        {"table_id":"20010765","url":"modules/task/File_upload.html","notes":"v1s1_T1_Balance"},
 		  "v1s2_T5_Balance":        {"table_id":"20010767","url":"modules/task/File_upload.html","notes":"v1s2_T1_Balance"},
