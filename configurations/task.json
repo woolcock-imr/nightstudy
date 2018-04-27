@@ -6,7 +6,7 @@
 		"Concom_Medication":   		{"table_id":"20010476","url":"modules/task/concom_medication.html","notes":"Concomitant Medication"},
 		"File_Notes_File":          {"table_id":"20010474","url":"modules/task/File_Notes.html","notes":"File Notes_File"},
 
-		"Screening_Visit_Date":		{"table_id":"20010478","url":"modules/task/Visit_date.html","notes":"Screening Visit Date"},
+		"Screening_Visit_Date":		{"table_id":"20010478","url":"modules/task/Visit_Date.html","notes":"Screening Visit Date"},
 		"Screening_Anthro":    		{"table_id":"20010479","url":"modules/task/Anthro.html","notes":"Screening Anthropometry"},
 		"v1s1_2_back":        {"table_id":"20010481","url":"modules/task/N_Back.html","notes":"Screening 2-back Practice","redundant_form_module":"v1s1_2_back_QUEST","task":"2-back Practice"},
 		"v1s1_2_back_QUEST":  {"table_id":"20010481","url":"modules/task/2Back_Practice.form.html"},
