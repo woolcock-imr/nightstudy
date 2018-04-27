@@ -131,6 +131,9 @@ VmInclude:/modules/layout/footer.html
                 console.log("call load_home_module");
 				load_home_module();
 				console.log("Total number of module: "+Object.keys($vm.module_list).length);
+
+				$vm.module_list['_system_export_dialog_module']={table_id:'',url:'__COMPONENT__/dialog/export_dialog_module.html'};
+		        $vm.nav_load_module('_system_export_dialog_module','hidden',{})
 			}
 		}
 		//------------------------------------
