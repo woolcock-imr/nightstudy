@@ -202,7 +202,7 @@
 		"v1s2_T4_KSS2_QUEST":   {"table_id":"20010533","url":"modules/task/karolinska_sleepiness_scale.form.html"},
 		"v1s2_T4_TOL":        {"table_id":"20010546","url":"modules/task/Tower_of_London.html","notes":"v1s2_T4_TOL","redundant_form_module":"v1s2_T4_TOL_QUEST","task":"Tower of London"},
 		"v1s2_T4_TOL_QUEST":  {"table_id":"20010546","url":"modules/task/Tower_of_London.form.html"},
-		"v1s2_T5_2_back":        {"table_id":"20010544","url":"modules/task/Nback.html","notes":"v1s2_T5_2_back","redundant_form_module":"v1s2_T5_2_back_QUEST","task":"2-Back"},
+		"v1s2_T5_2_back":        {"table_id":"20010544","url":"modules/task/NBack.html","notes":"v1s2_T5_2_back","redundant_form_module":"v1s2_T5_2_back_QUEST","task":"2-Back"},
 		"v1s2_T5_2_back_QUEST":  {"table_id":"20010544","url":"modules/task/2Back.form.html"},
 		"v1s2_T5_KSS1":     {"table_id":"20010534","url":"modules/task/kss.html","notes":"KSS before PVT","redundant_form_module":"v1s2_T5_KSS1_QUEST","task":"KSS before PVT"},
 		"v1s2_T5_KSS1_QUEST":   {"table_id":"20010534","url":"modules/task/karolinska_sleepiness_scale.form.html"},
