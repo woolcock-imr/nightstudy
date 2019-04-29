@@ -1,6 +1,6 @@
 {
 	"api_path_development":"https://cbs.wappsystem.com/dev/",
-	"api_path_production":"https://rt.woolcock.org.au/",
+	"api_path_production":"https://rt.woolcock.org.au/pro/",
 	"default_production":"Yes",
 	"panels":{
 		"panel_main":{"url":"/modules/panel/main.html","modules":["main.json","task.json"]}
